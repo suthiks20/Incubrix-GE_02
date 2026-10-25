@@ -1,0 +1,7 @@
+Offline week-profile input-size runs (Gemini key unset)
+Input | Characters | Produced | Rejected | Runtime seconds (engine) | Wall seconds
+blog-style (~400 chars) | 400 | 19 | 1 | 46.26 | 46.6
+transcript-style (~1,500 chars) | 1304 | 20 | 0 | 44.79 | 45.44
+bullet-list (~6,000 chars) | 5730 | 20 | 0 | 48.96 | 49.57
+long_input_launch_kit.txt | 9243 | 20 | 0 | 45.58 | 46.03
+demo_transcript.txt | not present | not run | not run | not run | not run
