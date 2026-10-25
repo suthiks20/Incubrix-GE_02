@@ -63,7 +63,7 @@ python -m unittest discover -s tests
 - Scheduled slot times are a starting hypothesis, not a measured best time.
 - Gemini outcome: worked once on 25 Oct 2026 (8 assets, tokens_in=9610, tokens_out=3624); free daily quota exhausted afterwards, offline fallback used.
 
-Evidence: [Gemini live run](../evidence/run_logs/gemini_live_run_25Oct.txt) · [429 quota response](../evidence/run_logs/gemini_429_quota_25Oct.txt)
+Evidence: [Gemini live run](../evidence/run_logs/gemini_live_run_25Oct.txt) | [429 quota response](../evidence/run_logs/gemini_429_quota_25Oct.txt)
 
 ## AI and manual work disclosure
 
