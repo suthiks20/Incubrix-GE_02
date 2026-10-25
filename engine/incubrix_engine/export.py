@@ -2,9 +2,9 @@
 import csv
 from pathlib import Path
 
-COLS = ["asset_id", "platform", "format", "content_pillar", "hook", "caption", "hashtags", "cta", "utm_link", "target_metric",
-        "final_file_url", "source_file_url", "source_input", "tools_used", "rights_checked", "ai_label_needed",
-        "scheduled_date", "test_published_url", "impressions_or_views", "engagement_rate", "clicks", "status", "notes"]
+COLS = ["asset_id", "platform", "format", "content_pillar", "hook", "caption", "cta", "utm_link", "final_file_url",
+        "source_file_url", "source_input", "tools_used", "rights_checked", "ai_label_needed", "scheduled_date",
+        "test_published_url", "impressions_or_views", "engagement_rate", "clicks", "status", "notes"]
 
 def export_all(store, out):
     out = Path(out); rows, sched = [], []
@@ -13,8 +13,7 @@ def export_all(store, out):
         a = x["data"]
         files = a.get("files", [])
         row = {"asset_id": a["asset_id"], "platform": a["platform"], "format": a["format"], "content_pillar": a["pillar"],
-               "hook": a["hook"], "caption": a["final_caption"], "hashtags": " ".join(a.get("hashtags", [])),
-               "cta": a["cta"], "utm_link": a["utm_link"], "target_metric": "UTM-attributed clicks",
+               "hook": a["hook"], "caption": a["final_caption"], "cta": a["cta"], "utm_link": a["utm_link"],
                "final_file_url": ";".join(files), "source_file_url": a.get("source_file", ""), "source_input": a["source_input"],
                "tools_used": a["tools_used"], "rights_checked": "Yes", "ai_label_needed": "No", "scheduled_date": a["scheduled"],
                "test_published_url": "", "impressions_or_views": "", "engagement_rate": "", "clicks": "", "status": "Ready",

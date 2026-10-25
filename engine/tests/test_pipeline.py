@@ -5,6 +5,9 @@ from incubrix_engine.llm import GeminiClient
 ROOT = Path(__file__).resolve().parent.parent
 INPUT = ROOT / "content" / "input_1.txt"
 TINY = {"short_video": 1, "carousel": 1, "graphic": 1, "text_post": 7}   # 10 assets, one video keeps tests fast
+CALENDAR_COLUMNS = ["asset_id", "platform", "format", "content_pillar", "hook", "caption", "cta", "utm_link",
+                    "final_file_url", "source_file_url", "source_input", "tools_used", "rights_checked", "ai_label_needed",
+                    "scheduled_date", "test_published_url", "impressions_or_views", "engagement_rate", "clicks", "status", "notes"]
 
 def make(tmp, **kw):
     e = Engine(tmp, **kw); e.cfg["profiles"]["tiny"] = TINY; return e
@@ -20,8 +23,15 @@ class Pipeline(unittest.TestCase):
     def test_normal_run_makes_10_plus_with_utm_and_files(self):
         s = make(self.tmp).run(INPUT, "tiny"); self.assertGreaterEqual(s["produced"], 10)
         r = rows(self.tmp); self.assertGreaterEqual(len(r), 10)
+        self.assertEqual(list(r[0]), CALENDAR_COLUMNS)
         self.assertTrue(all("utm_source=" in x["utm_link"] and x["final_file_url"] and x["scheduled_date"] for x in r))
-        self.assertTrue(all(x["hashtags"] and x["target_metric"] and x["source_file_url"] for x in r))
+        self.assertTrue(all(x["source_file_url"] for x in r))
+        source = json.loads((Path(self.tmp) / r[0]["source_file_url"]).read_text(encoding="utf-8"))
+        self.assertTrue(source["hashtags"])
+        with (Path(self.tmp) / "scheduler.csv").open(encoding="utf-8") as f:
+            scheduler = list(csv.DictReader(f))
+        scheduled = next(x for x in scheduler if x["asset_id"] == r[0]["asset_id"])
+        self.assertTrue(all(tag in scheduled["text"] for tag in source["hashtags"]))
         self.assertTrue((Path(self.tmp) / "scheduler.csv").exists())
 
     def test_repeat_run_adds_nothing(self):
