@@ -55,11 +55,13 @@ python -m unittest discover -s tests
 
 ## Honest limits
 
-- Gemini has not been tested live here; API tests use mocked responses only.
+- Gemini was run live on 25 Oct 2026 with gemini-3.8-flash: 8 assets, 9,610 tokens in, 3,624 out, with automatic recovery from one timeout and two 503s. The free tier allows 20 requests per day per model, so later runs hit HTTP 429 (PerDay quota); the engine now detects that on the first call, switches Gemini off for the run and falls back to offline generation. gemini-2.5-flash is retired for new keys (HTTP 404), so the default model is gemini-3.8-flash. A full 12-slot run needs about 12 requests, so one live run per day fits the free tier.
 - Offline output is extractive and less varied than LLM output.
 - Product facts allowed by the engine are limited to F1-F8 in `brand.json`.
 - Scheduled slot times are a starting hypothesis, not a measured best time.
 - Gemini outcome: [FILL IN after real run: either 'worked, tokens_in=X tokens_out=Y' or 'free quota exhausted on <date>, offline fallback used']
+
+Evidence: [Gemini live run](../evidence/run_logs/gemini_live_run_25Oct.txt) · [429 quota response](../evidence/run_logs/gemini_429_quota_25Oct.txt)
 
 ## AI and manual work disclosure
 

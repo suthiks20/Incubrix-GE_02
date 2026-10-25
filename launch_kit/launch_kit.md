@@ -66,7 +66,7 @@ These are starting targets, not forecasts, and no sourced benchmark is claimed. 
 ## 12. Risks and how to handle them
 - **Product output is not publish-ready.** The test clip had about 70% black bars, no captions and quiet audio, so these videos are generated text videos, not raw product clips. Never post a product clip without checking bars, captions and audio.
 - **Claims drift.** Only facts F1-F8 in `brand.json` may be claimed. Add a fact only after seeing it work and saving evidence.
-- **Gemini path untested live.** Run the engine once with the key before relying on it; the offline generator is the fallback.
+- **Gemini free-tier limit.** The free tier allows 20 requests per day per model. The engine stops using Gemini after a daily-quota error and falls back to the offline generator, so a run never fails. For weekly runs of 20 or more assets, use a paid key or the offline generator.
 - **Low Instagram base (69).** Expect slow early reach; judge Instagram on engagement rate and clicks, not follower count.
 - **Rights.** All media is generated from text with free fonts; no music is used. Add licensed audio inside the platform app only.
 - **Platform and privacy rules.** Post only from accounts IncuBrix owns; do not buy engagement; follow each platform's rules and the DPDP Act, GDPR and CAN-SPAM when collecting sign-ups.

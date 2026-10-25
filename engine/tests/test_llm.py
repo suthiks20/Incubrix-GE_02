@@ -32,6 +32,28 @@ def http_error(code, detail):
                                   {}, io.BytesIO(body))
 
 
+REAL_PERDAY_BODY = {"error": {"code": 429, "message": (
+    "You exceeded your current quota, please check your plan and billing details. For more information on this error, "
+    "head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. "
+    "\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, "
+    "model: gemini-3.8-flash, description: Generate content requests per day limit exceeded on Free Tier."),
+    "status": "RESOURCE_EXHAUSTED", "details": [
+        {"@type": "type.googleapis.com/google.rpc.QuotaFailure", "violations": [
+            {"quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier"}]},
+        {"@type": "type.googleapis.com/google.rpc.RetryInfo", "retryDelay": "37972s"}]}}
+
+
+def http_error_body(code, body):
+    return urllib.error.HTTPError("http://localhost/generate", code, "Too Many Requests", {},
+                                  io.BytesIO(json.dumps(body).encode()))
+
+
+def raiser(code, body):
+    def _raise(*args, **kwargs):
+        raise http_error_body(code, body)
+    return _raise
+
+
 def success_response(text='{"hook":"ok"}'):
     body = {
         "candidates": [{"content": {"parts": [
@@ -91,6 +113,44 @@ class GeminiRecoveryTests(unittest.TestCase):
         self.assertFalse(self.client.disabled)
         sleep.assert_called_once_with(1)
         self.assertEqual(len(errors), 1)
+
+    def test_real_google_per_day_429_is_fatal_even_when_phrase_is_past_220_chars(self):
+        with patch("incubrix_engine.llm.urllib.request.urlopen",
+                   side_effect=raiser(429, REAL_PERDAY_BODY)) as urlopen:
+            asset, source, errors, _ = self.recover()
+        self.assertEqual(source, "offline")
+        self.assertTrue(self.client.disabled)
+        self.assertEqual(urlopen.call_count, 1)
+        self.assertIn("GenerateRequestsPerDayPerProjectPerModel-FreeTier", errors[0])
+        self.assertIn("retry in 37972s", errors[0])
+
+    def test_404_model_not_found_is_fatal_without_retry(self):
+        with patch("incubrix_engine.llm.urllib.request.urlopen",
+                   side_effect=http_error(404, "This model is no longer available to new users")) as urlopen:
+            asset, source, errors, _ = self.recover()
+        self.assertEqual(source, "offline")
+        self.assertTrue(self.client.disabled)
+        self.assertEqual(urlopen.call_count, 1)
+
+    def test_repeated_per_minute_429s_trip_circuit_breaker(self):
+        body = {"error": {"code": 429, "message": "Too many requests per minute"}}
+        with patch("incubrix_engine.llm.urllib.request.urlopen",
+                   side_effect=raiser(429, body)) as urlopen:
+            with patch("incubrix_engine.llm.time.sleep"):
+                self.recover()
+                self.recover()
+        self.assertTrue(self.client.disabled)
+        self.assertEqual(urlopen.call_count, 6)
+
+    def test_short_retry_delay_is_used_for_wait(self):
+        body = {"error": {"code": 429, "message": "rate limited", "details": [
+            {"@type": "type.googleapis.com/google.rpc.RetryInfo", "retryDelay": "25s"}]}}
+        with patch("incubrix_engine.llm.urllib.request.urlopen",
+                   side_effect=[http_error_body(429, body), success_response()]):
+            with patch("incubrix_engine.llm.time.sleep") as sleep:
+                asset, source, errors, _ = self.recover()
+        self.assertEqual(source, "gemini")
+        sleep.assert_called_once_with(25.0)
 
     def test_401_and_403_are_fatal_without_retry(self):
         for status in (401, 403):

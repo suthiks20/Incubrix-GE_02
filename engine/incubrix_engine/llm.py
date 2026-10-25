@@ -50,7 +50,7 @@ class GeminiClient:
         self.min_interval = cfg.get("llm_min_interval_s", 6)
         self.simulate_failure = simulate_failure
         self.tokens_in = 0; self.tokens_out = 0
-        self.disabled = False; self._last_call = None
+        self.disabled = False; self._last_call = None; self.consecutive_429 = 0
 
     @property
     def available(self):
@@ -81,25 +81,45 @@ class GeminiClient:
             with urllib.request.urlopen(req, timeout=self.timeout) as r:
                 data = json.loads(r.read().decode())
         except urllib.error.HTTPError as e:
+            full = ""; quota_ids = []; retry_after = None
             try:
                 error_body = json.loads(e.read().decode())
-                detail = error_body.get("error", {}).get("message", "")
-                if not isinstance(detail, str):
-                    detail = ""
+                err = error_body.get("error", {})
+                full = err.get("message", "") if isinstance(err.get("message", ""), str) else ""
+                for d in err.get("details", []) or []:
+                    for v in d.get("violations", []) or []:
+                        if v.get("quotaId"):
+                            quota_ids.append(str(v["quotaId"]))
+                    m = re.fullmatch(r"(\d+(?:\.\d+)?)s", str(d.get("retryDelay", "")))
+                    if m:
+                        retry_after = float(m.group(1))
             except (json.JSONDecodeError, AttributeError, TypeError, UnicodeDecodeError, OSError):
-                detail = ""
+                pass
             finally:
                 e.close()
-            detail = self._redact(" ".join(detail.split())[:220])
-            per_day = bool(re.search(r"per ?day|daily", detail, re.I))
-            fatal = e.code in (400, 401, 403) or (e.code == 429 and per_day)
-            raise LLMError(self._redact(f"HTTP {e.code} {e.reason}: {detail}"),
-                           transient=e.code in (429, 500, 502, 503, 504) and not fatal, fatal=fatal)
+            # decide on the FULL message and quotaId, before truncating for the log
+            per_day = bool(re.search(r"per ?day|daily", full, re.I)) or any(re.search(r"PerDay|Daily", q) for q in quota_ids)
+            fatal = e.code in (400, 401, 403, 404) or (e.code == 429 and per_day)
+            detail = self._redact(" ".join(full.split())[:220])
+            extra = ""
+            if quota_ids:
+                extra += f" [quota: {quota_ids[0]}]"
+            if retry_after is not None:
+                extra += f" [retry in {int(retry_after)}s]"
+            self.consecutive_429 = self.consecutive_429 + 1 if e.code == 429 else 0
+            err_obj = LLMError(self._redact(f"HTTP {e.code} {e.reason}: {detail}{extra}"),
+                               transient=e.code in (429, 500, 502, 503, 504) and not fatal, fatal=fatal)
+            err_obj.retry_after = retry_after
+            # circuit breaker: repeated 429s across slots mean the quota is gone, stop spending time on it
+            if e.code == 429 and self.consecutive_429 >= 6:
+                err_obj.fatal = True; err_obj.transient = False
+            raise err_obj
         except (urllib.error.URLError, TimeoutError) as e:
             raise LLMError(self._redact(f"request failed: {e}"), transient=True)
         except (json.JSONDecodeError, UnicodeDecodeError):
             raise LLMError("bad response shape", transient=True)
         try:
+            self.consecutive_429 = 0
             usage = data.get("usageMetadata", {})
             self.tokens_in += usage.get("promptTokenCount", 0); self.tokens_out += usage.get("candidatesTokenCount", 0)
             parts = data["candidates"][0]["content"]["parts"]
@@ -167,6 +187,9 @@ def generate_with_recovery(client, slot, source, brand, cfg, log, errors):
                     break
                 if e.transient and attempt < attempts:
                     wait = cfg.get("llm_backoff_s", 10) * attempt
+                    ra = getattr(e, "retry_after", None)
+                    if ra is not None and ra <= 60:
+                        wait = max(wait, ra)
                     log.warning(f"waiting {wait}s before trying again")
                     time.sleep(wait)
                 elif not e.transient:

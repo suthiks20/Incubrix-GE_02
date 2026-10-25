@@ -1,0 +1,13 @@
+C:\Users\suthikshan k\Desktop\incubrix-option2-submission\engine>python run.py run --input content/input_1.txt --out gtest_live
+INFO run start input=input_1 chars=1304 slots=12
+ERROR render failed for A01: ffmpeg not found
+ERROR render failed for A02: ffmpeg not found
+WARNING slot short_video-3 attempt 1: request failed: The read operation timed out
+WARNING waiting 10s before trying again
+WARNING slot short_video-3 attempt 2: HTTP 503 Service Unavailable: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+WARNING waiting 20s before trying again
+ERROR render failed for A03: ffmpeg not found
+ERROR render failed for A04: ffmpeg not found
+WARNING slot text_post-5 attempt 1: HTTP 503 Service Unavailable: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+WARNING waiting 10s before trying again
+INFO run done {"input": "input_1", "input_chars": 1304, "slots": 12, "produced": 8, "new": 12, "updated": 0, "unchanged": 0, "rejected": 0, "duplicates_removed": 0, "assets_produced": 8, "assets_rejected": 0, "run_id": 1, "input_name": "input_1.txt", "render_failed": 4, "recovered": 0, "runtime_seconds": 662.14, "runtime_min": 11.04, "tokens_in": 9610, "tokens_out": 3624, "estimated_cost_usd": 0.0, "direct_cost_usd": 0.0, "source_counts": {"gemini": 8, "offline": 0, "other": 0}}
