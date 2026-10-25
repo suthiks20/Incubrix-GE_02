@@ -1,0 +1,28 @@
+{
+  "asset_id": "T06",
+  "platform": "LinkedIn",
+  "format": "Text post",
+  "pillar": "Hooks and captions",
+  "hook": "Captions are the cheapest fix for a vertical video.",
+  "caption": "Captions are the cheapest fix for a vertical video.\n\nSome people watch muted, so a video without captions loses them in the first seconds.\n\nBurn the captions into the frame, keep each line short, and read the whole video once with the sound off before you post.",
+  "cta": "Do you read your videos on mute before posting?",
+  "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+  ],
+  "slides": [],
+  "beats": [],
+  "facts_used": [],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-11-11 13:00 UTC",
+  "input_hash": "c95028f304f25f03",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=linkedin&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=T06",
+  "final_caption": "Captions are the cheapest fix for a vertical video.\n\nSome people watch muted, so a video without captions loses them in the first seconds.\n\nBurn the captions into the frame, keep each line short, and read the whole video once with the sound off before you post.\n\nDo you read your videos on mute before posting?\n\n#ContentCreation #ShortFormVideo #CreatorTools",
+  "files": [
+    "assets\\T06\\T06.txt"
+  ]
+}

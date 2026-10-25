@@ -1,0 +1,23 @@
+24 Oct 2026 - LinkedIn Content template
+Topic: Why most creators waste hours reformatting the same video for every platform
+Worked: yes, it wrote a LinkedIn post
+Problems: about 175 words when I asked for under 150; unsourced numbers (4-7 hours, April); no call to action; no hashtags; nothing about IncuBrix
+Note: after I said "no" it asked another question; I had to type "write the post now"
+
+
+Rewrite request: asked for under 150 words, remove April/4-7 hour claims, add a question CTA
+Result: [followed]; credits now: 283 credits
+
+Rewrite followed all three instructions. Edit feature works.
+
+It still has no hashtags or tracking link, and it never mentions IncuBrix or anything the product does.
+It argues against what IncuBrix sells. The post says reformatting for each platform doesn’t matter, but IncuBrix has Repurpose Video and Clips. The brief also requires every asset to be platform-native. So when you build the engine later, it has to add brand voice rules and real product facts, because the product’s raw output won’t do that by itself.
+“Consistency matters more than pixel-perfect adaptation” is an unsourced opinion. Don’t reuse it as a claim.
+
+Clips need a source video of at least 2 minutes. My 1:33 video was rejected after upload. 
+
+Clips job (source_video_2.mp4): started 10 sec in at 17%. 
+
+Clips result: 1 clip found from a 2:25 video (0:48-1:20, 32 sec, 9:16, score 57 in red). Preview shows black bars. Chat still said "Cutting clips" after review screen appeared. Credits before render: 283.
+
+Downloaded clip (clip_0000_1080x1920.mp4): 1080x1920, 32s, 30fps, ~70% black bars (landscape source letterboxed, not reframed). No captions seen in sampled frames. Audio quiet (mean about -33.5 dB). Download cost: ___ credits. Not publish-ready as is.

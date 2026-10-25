@@ -1,0 +1,115 @@
+{
+  "voice_rules": [
+    "Calm, practical, first person.",
+    "Put the answer in the first line.",
+    "No hype words and no numbers without a source.",
+    "Claim only what was seen working in the product (see facts).",
+    "End with a question when it fits."
+  ],
+  "banned_regex": [
+    "game.?changer",
+    "revolution",
+    "10x",
+    "guarantee",
+    "viral",
+    "#1\\b",
+    "effortless",
+    "in seconds",
+    "auto.?caption",
+    "one.?click",
+    "supercharge",
+    "unlock",
+    "skyrocket",
+    "best.in.class"
+  ],
+  "platform_rules": {
+    "LinkedIn": {
+      "max_words": 150,
+      "hashtags": [
+        2,
+        4
+      ],
+      "carousel_slides": [
+        5,
+        9
+      ]
+    },
+    "Instagram": {
+      "max_caption_chars": 2200,
+      "hashtags": [
+        3,
+        8
+      ],
+      "carousel_slides": [
+        5,
+        9
+      ]
+    },
+    "YouTube Shorts": {
+      "max_title_chars": 100,
+      "hashtags": [
+        2,
+        4
+      ],
+      "max_seconds": 60
+    }
+  },
+  "hook_max_chars": 110,
+  "words_per_slide_max": 32,
+  "facts": {
+    "F1": {
+      "text": "The LinkedIn Content template wrote a full draft from one typed idea after asking what kind of post.",
+      "evidence": "product_notes.txt; Screenshots/LinkedIn"
+    },
+    "F2": {
+      "text": "Rewrite by chat followed three instructions: under 150 words, unsourced claims removed, question as the call to action.",
+      "evidence": "product_notes.txt; Screenshots/LinkedIn"
+    },
+    "F3": {
+      "text": "Draft plus rewrite cost 17 credits (300 to 283); the balance is visible at the top.",
+      "evidence": "product_notes.txt; Screenshots/LinkedIn"
+    },
+    "F4": {
+      "text": "Clips found one 32-second 9:16 clip (1080x1920) in a 2:25 video; it cost 13 credits to get.",
+      "evidence": "Screenshots/Repurpose Video; product_notes.txt"
+    },
+    "F5": {
+      "text": "The clip had roughly 70% black bars, no captions in sampled frames, and quiet audio.",
+      "evidence": "Screenshots/Repurpose Video/generated clip.mp4; product_notes.txt"
+    },
+    "F6": {
+      "text": "Clips needs a source of at least 2 minutes; a 1:33 upload was rejected.",
+      "evidence": "product_notes.txt"
+    },
+    "F7": {
+      "text": "The raw draft ran about 175 words against a 150-word ask, had unsourced numbers, no hashtags, no call to action and no product mention.",
+      "evidence": "product_notes.txt"
+    },
+    "F8": {
+      "text": "Analytics showed sample data and said so.",
+      "evidence": "engine/input_1.txt; Screenshots/Product Overview"
+    }
+  },
+  "allowed_numbers": [
+    "1",
+    "1080",
+    "1080x1920",
+    "13",
+    "150",
+    "17",
+    "175",
+    "1920",
+    "1:33",
+    "2",
+    "283",
+    "2:25",
+    "3",
+    "30",
+    "300",
+    "32",
+    "60",
+    "70",
+    "70%",
+    "9:16"
+  ]
+}

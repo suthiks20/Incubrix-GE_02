@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:04,300
+I ran a 2:25 video through Clips.
+
+2
+00:00:04,300 --> 00:00:08,200
+It found one clip. 32 seconds.
+
+3
+00:00:08,200 --> 00:00:10,900
+Output was 1080x1920.
+
+4
+00:00:10,900 --> 00:00:14,800
+But roughly 70% was black bars.
+
+5
+00:00:14,800 --> 00:00:19,100
+I saw no captions. Audio was quiet.
+
+6
+00:00:19,100 --> 00:00:22,600
+Good at finding the moment.
+
+7
+00:00:22,600 --> 00:00:27,400
+Not ready to post as it came out.
+
+8
+00:00:27,400 --> 00:00:31,300
+What do you check before posting?

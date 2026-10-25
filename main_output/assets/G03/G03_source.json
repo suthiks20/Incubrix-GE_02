@@ -1,0 +1,33 @@
+{
+  "asset_id": "G03",
+  "platform": "Instagram",
+  "format": "Graphic",
+  "pillar": "Honest tests",
+  "hook": "Check before you post: bars, captions, audio",
+  "caption": "I check three things on every vertical clip: black bars, captions and audio level. One failed check means it is not ready.",
+  "cta": "What is on your pre-post checklist?",
+  "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+  ],
+  "slides": [
+    "Before you post a clip: check bars, captions, audio."
+  ],
+  "beats": [],
+  "facts_used": [
+    "F5"
+  ],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-11-14 17:00 UTC",
+  "input_hash": "4500a8e627a820f8",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=instagram&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=G03",
+  "final_caption": "Check before you post: bars, captions, audio\n\nI check three things on every vertical clip: black bars, captions and audio level. One failed check means it is not ready.\n\nWhat is on your pre-post checklist?\n\nLink in bio.\n\n#ContentCreation #CreatorTips #Reels #Repurposing",
+  "files": [
+    "assets\\G03\\G03.png"
+  ]
+}

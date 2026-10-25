@@ -1,0 +1,31 @@
+{
+  "asset_id": "T09",
+  "platform": "LinkedIn",
+  "format": "Text post",
+  "pillar": "Honest tests",
+  "hook": "Know what each step costs before you plan a month of posts.",
+  "caption": "Know what each step costs before you plan a month of posts.\n\nIn my test, one draft plus one rewrite cost 17 credits, from 300 to 283. One clip cost 13 credits.\n\nThe balance stayed visible at the top, which made it easy to see.\n\nMultiply that by your weekly plan before you commit.",
+  "cta": "Do you track the cost of each content step?",
+  "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+  ],
+  "slides": [],
+  "beats": [],
+  "facts_used": [
+    "F3",
+    "F4"
+  ],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-11-16 13:00 UTC",
+  "input_hash": "0443e672ac407cc5",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=linkedin&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=T09",
+  "final_caption": "Know what each step costs before you plan a month of posts.\n\nIn my test, one draft plus one rewrite cost 17 credits, from 300 to 283. One clip cost 13 credits.\n\nThe balance stayed visible at the top, which made it easy to see.\n\nMultiply that by your weekly plan before you commit.\n\nDo you track the cost of each content step?\n\n#ContentCreation #ShortFormVideo #CreatorTools",
+  "files": [
+    "assets\\T09\\T09.txt"
+  ]
+}

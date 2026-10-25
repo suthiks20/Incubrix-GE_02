@@ -1,0 +1,31 @@
+{
+  "asset_id": "G02",
+  "platform": "Instagram",
+  "format": "Graphic",
+  "pillar": "Hooks and captions",
+  "hook": "Answer first. Warm-up never.",
+  "caption": "The first line is the post. Lead with the answer and keep the warm-up out of it.",
+  "cta": "What is your first line this week?",
+  "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+  ],
+  "slides": [
+    "Answer first. Warm-up never."
+  ],
+  "beats": [],
+  "facts_used": [],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-11-12 17:00 UTC",
+  "input_hash": "c9665369e2f2baa5",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=instagram&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=G02",
+  "final_caption": "Answer first. Warm-up never.\n\nThe first line is the post. Lead with the answer and keep the warm-up out of it.\n\nWhat is your first line this week?\n\nLink in bio.\n\n#ContentCreation #CreatorTips #Reels #Repurposing",
+  "files": [
+    "assets\\G02\\G02.png"
+  ]
+}

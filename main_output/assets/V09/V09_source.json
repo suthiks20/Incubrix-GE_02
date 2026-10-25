@@ -1,0 +1,48 @@
+{
+  "asset_id": "V09",
+  "platform": "YouTube Shorts",
+  "format": "Short video",
+  "pillar": "Honest tests",
+  "hook": "What 17 credits bought me",
+  "caption": "A draft plus one rewrite cost 17 credits, from 300 to 283. One clip cost 13. Knowing the price per step helps you plan a month.",
+  "cta": "Do you track what each step costs?",
+  "hashtags": [
+    "#Shorts",
+    "#ContentCreation",
+    "#CreatorTips"
+  ],
+  "slides": [],
+  "beats": [
+    "What 17 credits bought me.",
+    "One draft plus one rewrite.",
+    "300 down to 283.",
+    "One clip cost 13 credits.",
+    "Know the price of each step.",
+    "Then plan the month.",
+    "Do you track what each step costs?"
+  ],
+  "facts_used": [
+    "F3",
+    "F4"
+  ],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-11-11 16:00 UTC",
+  "input_hash": "36bd608dedff1e1e",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=youtube&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=V09",
+  "final_caption": "What 17 credits bought me\n\nA draft plus one rewrite cost 17 credits, from 300 to 283. One clip cost 13. Knowing the price per step helps you plan a month.\n\nDo you track what each step costs?\n\nLink: https://incubrix.com/?utm_source=youtube&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=V09\n\n#Shorts #ContentCreation #CreatorTips",
+  "beat_seconds": [
+    3.5,
+    3.5,
+    3.1,
+    3.5,
+    3.9,
+    3.1,
+    4.3
+  ],
+  "files": [
+    "assets\\V09\\V09.mp4"
+  ]
+}

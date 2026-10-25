@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:03,900
+I typed one idea into IncuBrix.
+
+2
+00:00:03,900 --> 00:00:08,700
+It asked what kind of post I wanted.
+
+3
+00:00:08,700 --> 00:00:12,600
+I chose a single LinkedIn post.
+
+4
+00:00:12,600 --> 00:00:16,100
+It wrote a full draft.
+
+5
+00:00:16,100 --> 00:00:20,400
+I asked for a rewrite by chat.
+
+6
+00:00:20,400 --> 00:00:25,200
+The credit balance stays visible at the top.
+
+7
+00:00:25,200 --> 00:00:29,100
+How do you edit drafts today?

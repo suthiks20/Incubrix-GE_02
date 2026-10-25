@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:04,300
+Your first line is the whole post.
+
+2
+00:00:04,300 --> 00:00:07,400
+Say the answer first.
+
+3
+00:00:07,400 --> 00:00:10,100
+Cut the warm-up.
+
+4
+00:00:10,100 --> 00:00:15,100
+Weak: Hi everyone, today I want to talk about...
+
+5
+00:00:15,100 --> 00:00:19,000
+Better: Black bars waste your clip.
+
+6
+00:00:19,000 --> 00:00:22,900
+What is your hook for tomorrow?

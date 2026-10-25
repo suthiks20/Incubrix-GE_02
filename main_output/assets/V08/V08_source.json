@@ -1,0 +1,50 @@
+{
+  "asset_id": "V08",
+  "platform": "Instagram",
+  "format": "Short video",
+  "pillar": "The product in action",
+  "hook": "I edited a draft by talking to it",
+  "caption": "In IncuBrix I typed one idea into the box and picked a single LinkedIn post. It wrote a full draft, and I changed it with a chat message.",
+  "cta": "How do you edit drafts today?",
+  "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+  ],
+  "slides": [],
+  "beats": [
+    "I typed one idea into IncuBrix.",
+    "It asked what kind of post I wanted.",
+    "I chose a single LinkedIn post.",
+    "It wrote a full draft.",
+    "I asked for a rewrite by chat.",
+    "The credit balance stays visible at the top.",
+    "How do you edit drafts today?"
+  ],
+  "facts_used": [
+    "F1",
+    "F2",
+    "F3"
+  ],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-11-03 17:00 UTC",
+  "input_hash": "3361924c80c8e90e",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=instagram&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=V08",
+  "final_caption": "I edited a draft by talking to it\n\nIn IncuBrix I typed one idea into the box and picked a single LinkedIn post. It wrote a full draft, and I changed it with a chat message.\n\nHow do you edit drafts today?\n\nLink in bio.\n\n#ContentCreation #CreatorTips #Reels #Repurposing",
+  "beat_seconds": [
+    3.9,
+    4.8,
+    3.9,
+    3.5,
+    4.3,
+    4.8,
+    3.9
+  ],
+  "files": [
+    "assets\\V08\\V08.mp4"
+  ]
+}

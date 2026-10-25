@@ -1,0 +1,36 @@
+{
+  "asset_id": "C03",
+  "platform": "LinkedIn",
+  "format": "Carousel",
+  "pillar": "Idea-to-published workflow",
+  "hook": "My idea-to-published workflow",
+  "caption": "A repeatable routine matters more than a perfect post. This is the one I use for each idea.",
+  "cta": "What would you change in this routine?",
+  "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+  ],
+  "slides": [
+    "My idea-to-published workflow",
+    "Step one: write the idea in one sentence.",
+    "Step two: get a first draft.",
+    "Step three: edit by instruction: length, claims, ending.",
+    "Step four: shape it for each platform.",
+    "Step five: add a tracking link and schedule it.",
+    "What would you change in this routine?"
+  ],
+  "beats": [],
+  "facts_used": [],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-10-29 13:00 UTC",
+  "input_hash": "93bcf728025d7934",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=linkedin&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=C03",
+  "final_caption": "My idea-to-published workflow\n\nA repeatable routine matters more than a perfect post. This is the one I use for each idea.\n\nWhat would you change in this routine?\n\n#ContentCreation #ShortFormVideo #CreatorTools",
+  "files": [
+    "assets\\C03\\C03.pdf"
+  ]
+}

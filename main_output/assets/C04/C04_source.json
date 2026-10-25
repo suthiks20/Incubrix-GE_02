@@ -1,0 +1,45 @@
+{
+  "asset_id": "C04",
+  "platform": "LinkedIn",
+  "format": "Carousel",
+  "pillar": "Honest tests",
+  "hook": "Honest notes from my first session in IncuBrix",
+  "caption": "I tested the LinkedIn Content template and Clips. Here is what worked, what did not, and what it cost.",
+  "cta": "What would you want to know before trying it?",
+  "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+  ],
+  "slides": [
+    "Honest notes from my first session",
+    "Worked: a draft from one typed idea.",
+    "Worked: a rewrite by chat followed all three instructions.",
+    "Cost: draft plus rewrite was 17 credits, 300 to 283.",
+    "Worked: Clips found one 32-second vertical clip. 13 credits.",
+    "Not ready: roughly 70% black bars, no captions seen, quiet audio.",
+    "Limit: Clips needs a source of at least 2 minutes. My 1:33 upload was rejected.",
+    "What would you want to know before trying it?"
+  ],
+  "beats": [],
+  "facts_used": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7"
+  ],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-10-30 13:00 UTC",
+  "input_hash": "3703b12110c1e29b",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=linkedin&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=C04",
+  "final_caption": "Honest notes from my first session in IncuBrix\n\nI tested the LinkedIn Content template and Clips. Here is what worked, what did not, and what it cost.\n\nWhat would you want to know before trying it?\n\n#ContentCreation #ShortFormVideo #CreatorTools",
+  "files": [
+    "assets\\C04\\C04.pdf"
+  ]
+}

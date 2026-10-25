@@ -1,0 +1,32 @@
+{
+  "asset_id": "T02",
+  "platform": "LinkedIn",
+  "format": "Text post",
+  "pillar": "Honest tests",
+  "hook": "My first draft from an AI template ran long and cited numbers I could not source.",
+  "caption": "My first draft from an AI template ran long and cited numbers I could not source.\n\nI asked the LinkedIn Content template for a post under 150 words. The draft ran about 175, with figures that had no source, no hashtags and no call to action.\n\nOne rewrite by chat fixed the length, removed the claims and added a question.",
+  "cta": "Do you check every number in a draft before you post?",
+  "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+  ],
+  "slides": [],
+  "beats": [],
+  "facts_used": [
+    "F1",
+    "F2",
+    "F7"
+  ],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-11-04 13:00 UTC",
+  "input_hash": "64dadc8547b7a33e",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=linkedin&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=T02",
+  "final_caption": "My first draft from an AI template ran long and cited numbers I could not source.\n\nI asked the LinkedIn Content template for a post under 150 words. The draft ran about 175, with figures that had no source, no hashtags and no call to action.\n\nOne rewrite by chat fixed the length, removed the claims and added a question.\n\nDo you check every number in a draft before you post?\n\n#ContentCreation #ShortFormVideo #CreatorTools",
+  "files": [
+    "assets\\T02\\T02.txt"
+  ]
+}

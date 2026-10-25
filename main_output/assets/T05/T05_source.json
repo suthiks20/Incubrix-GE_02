@@ -1,0 +1,31 @@
+{
+  "asset_id": "T05",
+  "platform": "LinkedIn",
+  "format": "Text post",
+  "pillar": "Honest tests",
+  "hook": "A clip finder found my moment but I would not post the file.",
+  "caption": "A clip finder found my moment but I would not post the file.\n\nI ran a 2:25 landscape video through Clips. It found one 32-second clip at 1080x1920.\n\nRoughly 70% of the frame was black bars, I saw no captions in the frames I sampled, and the audio was quiet.\n\nThe finding step is useful. The finishing step is still on me.",
+  "cta": "What do you fix after a clip tool does its part?",
+  "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+  ],
+  "slides": [],
+  "beats": [],
+  "facts_used": [
+    "F4",
+    "F5"
+  ],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-11-09 13:00 UTC",
+  "input_hash": "80399a686d44cd5c",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=linkedin&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=T05",
+  "final_caption": "A clip finder found my moment but I would not post the file.\n\nI ran a 2:25 landscape video through Clips. It found one 32-second clip at 1080x1920.\n\nRoughly 70% of the frame was black bars, I saw no captions in the frames I sampled, and the audio was quiet.\n\nThe finding step is useful. The finishing step is still on me.\n\nWhat do you fix after a clip tool does its part?\n\n#ContentCreation #ShortFormVideo #CreatorTools",
+  "files": [
+    "assets\\T05\\T05.txt"
+  ]
+}

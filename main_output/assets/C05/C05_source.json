@@ -1,0 +1,37 @@
+{
+  "asset_id": "C05",
+  "platform": "Instagram",
+  "format": "Carousel",
+  "pillar": "Hooks and captions",
+  "hook": "A caption checklist before you post",
+  "caption": "Run this list before every post. It takes a minute and catches most of the problems I see.",
+  "cta": "What would you add to this checklist?",
+  "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+  ],
+  "slides": [
+    "A caption checklist before you post",
+    "First line: does it give the answer?",
+    "Claims: does every number have a source?",
+    "Call to action: one clear ask.",
+    "Hashtags: a few relevant ones.",
+    "Link: tracked, and placed where the platform allows it.",
+    "What would you add to this checklist?"
+  ],
+  "beats": [],
+  "facts_used": [],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-11-07 17:00 UTC",
+  "input_hash": "9eb458bfb6d49f06",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=instagram&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=C05",
+  "final_caption": "A caption checklist before you post\n\nRun this list before every post. It takes a minute and catches most of the problems I see.\n\nWhat would you add to this checklist?\n\nLink in bio.\n\n#ContentCreation #CreatorTips #Reels #Repurposing",
+  "files": [
+    "assets\\C05\\C05.pdf"
+  ]
+}

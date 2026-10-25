@@ -1,0 +1,36 @@
+{
+  "asset_id": "C02",
+  "platform": "LinkedIn",
+  "format": "Carousel",
+  "pillar": "Hooks and captions",
+  "hook": "Five hook patterns that work for creators",
+  "caption": "Hooks are easier when you pick a pattern. These five are plain and need no tricks.",
+  "cta": "Which pattern will you try first?",
+  "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+  ],
+  "slides": [
+    "Five hook patterns for creators",
+    "The answer first: Black bars waste your clip.",
+    "The test: I tried X so you do not have to.",
+    "The mistake: Here is what I got wrong.",
+    "The question: What do you check before you post?",
+    "The before and after: 175 words, then under 150.",
+    "Which pattern will you try first?"
+  ],
+  "beats": [],
+  "facts_used": [],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-10-28 13:00 UTC",
+  "input_hash": "4c3f72e38ed4cf9a",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=linkedin&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=C02",
+  "final_caption": "Five hook patterns that work for creators\n\nHooks are easier when you pick a pattern. These five are plain and need no tricks.\n\nWhich pattern will you try first?\n\n#ContentCreation #ShortFormVideo #CreatorTools",
+  "files": [
+    "assets\\C02\\C02.pdf"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "asset_id": "V04",
+  "platform": "Instagram",
+  "format": "Short video",
+  "pillar": "Hooks and captions",
+  "hook": "Your first line is the whole post",
+  "caption": "Most people decide in the first two seconds. Put the answer first and cut the warm-up.",
+  "cta": "What is your hook for tomorrow's post?",
+  "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+  ],
+  "slides": [],
+  "beats": [
+    "Your first line is the whole post.",
+    "Say the answer first.",
+    "Cut the warm-up.",
+    "Weak: Hi everyone, today I want to talk about...",
+    "Better: Black bars waste your clip.",
+    "What is your hook for tomorrow?"
+  ],
+  "facts_used": [],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-10-29 17:00 UTC",
+  "input_hash": "5e07e9296a60519b",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=instagram&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=V04",
+  "final_caption": "Your first line is the whole post\n\nMost people decide in the first two seconds. Put the answer first and cut the warm-up.\n\nWhat is your hook for tomorrow's post?\n\nLink in bio.\n\n#ContentCreation #CreatorTips #Reels #Repurposing",
+  "beat_seconds": [
+    4.3,
+    3.1,
+    2.7,
+    5.0,
+    3.9,
+    3.9
+  ],
+  "files": [
+    "assets\\V04\\V04.mp4"
+  ]
+}

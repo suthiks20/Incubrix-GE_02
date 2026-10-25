@@ -1,0 +1,20 @@
+INFO run start input=input_1 chars=1304 slots=20
+INFO run done {"input": "input_1", "input_chars": 1304, "slots": 20, "produced": 20, "new": 0, "updated": 0, "unchanged": 19, "rejected": 0, "duplicates_removed": 0, "render_failed": 0, "recovered": 1, "runtime_min": 0.17, "tokens_in": 0, "tokens_out": 0, "direct_cost_usd": 0.0, "errors": []}
+{
+  "input": "input_1",
+  "input_chars": 1304,
+  "slots": 20,
+  "produced": 20,
+  "new": 0,
+  "updated": 0,
+  "unchanged": 19,
+  "rejected": 0,
+  "duplicates_removed": 0,
+  "render_failed": 0,
+  "recovered": 1,
+  "runtime_min": 0.17,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "direct_cost_usd": 0.0,
+  "errors": []
+}

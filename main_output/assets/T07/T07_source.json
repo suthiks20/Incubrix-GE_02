@@ -1,0 +1,31 @@
+{
+  "asset_id": "T07",
+  "platform": "LinkedIn",
+  "format": "Text post",
+  "pillar": "The product in action",
+  "hook": "Editing a draft by chat is the part of IncuBrix I would use again.",
+  "caption": "Editing a draft by chat is the part of IncuBrix I would use again.\n\nI typed one idea, chose a single LinkedIn post, and got a full draft. Then I asked for three changes in one message: under 150 words, remove two unsourced claims, end with a question.\n\nIt followed all three.",
+  "cta": "What would you ask a rewrite to change?",
+  "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+  ],
+  "slides": [],
+  "beats": [],
+  "facts_used": [
+    "F1",
+    "F2"
+  ],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-11-12 13:00 UTC",
+  "input_hash": "3b20054f313c8843",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=linkedin&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=T07",
+  "final_caption": "Editing a draft by chat is the part of IncuBrix I would use again.\n\nI typed one idea, chose a single LinkedIn post, and got a full draft. Then I asked for three changes in one message: under 150 words, remove two unsourced claims, end with a question.\n\nIt followed all three.\n\nWhat would you ask a rewrite to change?\n\n#ContentCreation #ShortFormVideo #CreatorTools",
+  "files": [
+    "assets\\T07\\T07.txt"
+  ]
+}

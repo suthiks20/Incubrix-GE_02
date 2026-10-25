@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.db
+logs/
+output/
+gtest*/
+demo*/
+Records/
+*.bat
+.env
+generated clip.mp4

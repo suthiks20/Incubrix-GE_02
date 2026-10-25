@@ -1,0 +1,33 @@
+{
+  "asset_id": "G05",
+  "platform": "Instagram",
+  "format": "Graphic",
+  "pillar": "The product in action",
+  "hook": "Edit by instruction, not by hand",
+  "caption": "In my test, one chat message asked for under 150 words, no unsourced claims, and a question at the end. The rewrite followed all three.",
+  "cta": "What would you ask a rewrite to fix?",
+  "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+  ],
+  "slides": [
+    "Under 150 words. No unsourced claims. End with a question."
+  ],
+  "beats": [],
+  "facts_used": [
+    "F2"
+  ],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-11-19 17:00 UTC",
+  "input_hash": "c858551449413219",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=instagram&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=G05",
+  "final_caption": "Edit by instruction, not by hand\n\nIn my test, one chat message asked for under 150 words, no unsourced claims, and a question at the end. The rewrite followed all three.\n\nWhat would you ask a rewrite to fix?\n\nLink in bio.\n\n#ContentCreation #CreatorTips #Reels #Repurposing",
+  "files": [
+    "assets\\G05\\G05.png"
+  ]
+}

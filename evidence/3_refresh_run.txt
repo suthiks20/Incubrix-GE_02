@@ -1,0 +1,40 @@
+INFO run start input=input_1 chars=1313 slots=20
+WARNING slot short_video-1: using offline fallback generator
+WARNING slot short_video-2: using offline fallback generator
+WARNING slot short_video-3: using offline fallback generator
+WARNING slot short_video-4: using offline fallback generator
+WARNING slot short_video-5: using offline fallback generator
+WARNING slot short_video-6: using offline fallback generator
+WARNING slot carousel-1: using offline fallback generator
+WARNING slot carousel-2: using offline fallback generator
+WARNING slot carousel-3: using offline fallback generator
+WARNING slot graphic-1: using offline fallback generator
+WARNING slot graphic-2: using offline fallback generator
+WARNING slot graphic-3: using offline fallback generator
+WARNING slot text_post-1: using offline fallback generator
+WARNING slot text_post-2: using offline fallback generator
+WARNING slot text_post-3: using offline fallback generator
+WARNING slot text_post-4: using offline fallback generator
+WARNING slot text_post-5: using offline fallback generator
+WARNING slot text_post-6: using offline fallback generator
+WARNING slot text_post-7: using offline fallback generator
+WARNING slot text_post-8: using offline fallback generator
+INFO run done {"input": "input_1", "input_chars": 1313, "slots": 20, "produced": 20, "new": 0, "updated": 2, "unchanged": 18, "rejected": 0, "duplicates_removed": 0, "render_failed": 0, "recovered": 0, "runtime_min": 0.0, "tokens_in": 0, "tokens_out": 0, "direct_cost_usd": 0.0, "errors": []}
+{
+  "input": "input_1",
+  "input_chars": 1313,
+  "slots": 20,
+  "produced": 20,
+  "new": 0,
+  "updated": 2,
+  "unchanged": 18,
+  "rejected": 0,
+  "duplicates_removed": 0,
+  "render_failed": 0,
+  "recovered": 0,
+  "runtime_min": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "direct_cost_usd": 0.0,
+  "errors": []
+}

@@ -1,0 +1,690 @@
+{
+ "assets": [
+  {
+   "id": "V01",
+   "platform": "YouTube Shorts",
+   "format": "Short video",
+   "pillar": "The reformatting problem and how to fix it",
+   "hook": "One video, three platforms, three shapes",
+   "caption": "One video does not fit every feed. LinkedIn, Reels and Shorts each reward a different first line and a different frame.",
+   "cta": "Which platform do you rework first?",
+   "hashtags": [
+    "#Shorts",
+    "#ContentCreation",
+    "#CreatorTips"
+   ],
+   "facts_used": [],
+   "beats": [
+    "One video. Three platforms.",
+    "LinkedIn wants context.",
+    "Reels want a fast first line.",
+    "Shorts want vertical, under 60 seconds.",
+    "Same idea. Three native versions.",
+    "Which platform do you rework first?"
+   ],
+   "slides": []
+  },
+  {
+   "id": "V02",
+   "platform": "Instagram",
+   "format": "Short video",
+   "pillar": "Honest tests",
+   "hook": "I asked for under 150 words. I got 175.",
+   "caption": "I tested the LinkedIn Content template. The draft ran long and carried claims with no source. A rewrite by chat fixed it.",
+   "cta": "Do you check drafts before you post?",
+   "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+   ],
+   "facts_used": [
+    "F1",
+    "F2",
+    "F7"
+   ],
+   "beats": [
+    "I asked a template for a LinkedIn post.",
+    "I asked for under 150 words.",
+    "The draft ran about 175.",
+    "It also had numbers with no source.",
+    "I asked for a rewrite by chat.",
+    "It followed all three instructions.",
+    "Do you check drafts before you post?"
+   ],
+   "slides": []
+  },
+  {
+   "id": "V03",
+   "platform": "YouTube Shorts",
+   "format": "Short video",
+   "pillar": "Honest tests",
+   "hook": "My clip came out with black bars on most of the frame",
+   "caption": "I ran a 2:25 landscape video through Clips. It found a 32-second vertical clip, but roughly 70% of the frame was black bars.",
+   "cta": "What do you check before you post a clip?",
+   "hashtags": [
+    "#Shorts",
+    "#ContentCreation",
+    "#CreatorTips"
+   ],
+   "facts_used": [
+    "F4",
+    "F5"
+   ],
+   "beats": [
+    "I ran a 2:25 video through Clips.",
+    "It found one clip. 32 seconds.",
+    "Output was 1080x1920.",
+    "But roughly 70% was black bars.",
+    "I saw no captions. Audio was quiet.",
+    "Good at finding the moment.",
+    "Not ready to post as it came out.",
+    "What do you check before posting?"
+   ],
+   "slides": []
+  },
+  {
+   "id": "V04",
+   "platform": "Instagram",
+   "format": "Short video",
+   "pillar": "Hooks and captions",
+   "hook": "Your first line is the whole post",
+   "caption": "Most people decide in the first two seconds. Put the answer first and cut the warm-up.",
+   "cta": "What is your hook for tomorrow's post?",
+   "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+   ],
+   "facts_used": [],
+   "beats": [
+    "Your first line is the whole post.",
+    "Say the answer first.",
+    "Cut the warm-up.",
+    "Weak: Hi everyone, today I want to talk about...",
+    "Better: Black bars waste your clip.",
+    "What is your hook for tomorrow?"
+   ],
+   "slides": []
+  },
+  {
+   "id": "V05",
+   "platform": "YouTube Shorts",
+   "format": "Short video",
+   "pillar": "Hooks and captions",
+   "hook": "Add captions. It costs nothing.",
+   "caption": "Some people watch muted. Burned-in captions keep the idea readable without sound, and they are easy to check before you post.",
+   "cta": "Do you caption every video?",
+   "hashtags": [
+    "#Shorts",
+    "#ContentCreation",
+    "#CreatorTips"
+   ],
+   "facts_used": [],
+   "beats": [
+    "Add captions. It costs nothing.",
+    "Some people watch muted.",
+    "Burn them into the frame.",
+    "Keep each line short.",
+    "Check them before you post.",
+    "Do you caption every video?"
+   ],
+   "slides": []
+  },
+  {
+   "id": "V06",
+   "platform": "Instagram",
+   "format": "Short video",
+   "pillar": "Idea-to-published workflow",
+   "hook": "My idea-to-post routine, in five steps",
+   "caption": "A simple routine keeps posting steady: one idea, a draft, an edit, a native format per platform, then a scheduled slot.",
+   "cta": "Which step slows you down most?",
+   "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+   ],
+   "facts_used": [],
+   "beats": [
+    "Step one: write the idea in one sentence.",
+    "Step two: get a first draft.",
+    "Step three: edit it. Cut claims with no source.",
+    "Step four: shape it for each platform.",
+    "Step five: schedule it.",
+    "Which step slows you down most?"
+   ],
+   "slides": []
+  },
+  {
+   "id": "V07",
+   "platform": "YouTube Shorts",
+   "format": "Short video",
+   "pillar": "The reformatting problem and how to fix it",
+   "hook": "Resizing is not repurposing",
+   "caption": "A letterboxed video is resized, not reframed. Reframing keeps the speaker in the frame and fills the screen.",
+   "cta": "Do you reframe or just resize?",
+   "hashtags": [
+    "#Shorts",
+    "#ContentCreation",
+    "#CreatorTips"
+   ],
+   "facts_used": [],
+   "beats": [
+    "Resizing is not repurposing.",
+    "A letterboxed video is just resized.",
+    "Black bars waste the screen.",
+    "Reframing keeps the speaker in view.",
+    "Then add captions.",
+    "Do you reframe or just resize?"
+   ],
+   "slides": []
+  },
+  {
+   "id": "V08",
+   "platform": "Instagram",
+   "format": "Short video",
+   "pillar": "The product in action",
+   "hook": "I edited a draft by talking to it",
+   "caption": "In IncuBrix I typed one idea into the box and picked a single LinkedIn post. It wrote a full draft, and I changed it with a chat message.",
+   "cta": "How do you edit drafts today?",
+   "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+   ],
+   "facts_used": [
+    "F1",
+    "F2",
+    "F3"
+   ],
+   "beats": [
+    "I typed one idea into IncuBrix.",
+    "It asked what kind of post I wanted.",
+    "I chose a single LinkedIn post.",
+    "It wrote a full draft.",
+    "I asked for a rewrite by chat.",
+    "The credit balance stays visible at the top.",
+    "How do you edit drafts today?"
+   ],
+   "slides": []
+  },
+  {
+   "id": "V09",
+   "platform": "YouTube Shorts",
+   "format": "Short video",
+   "pillar": "Honest tests",
+   "hook": "What 17 credits bought me",
+   "caption": "A draft plus one rewrite cost 17 credits, from 300 to 283. One clip cost 13. Knowing the price per step helps you plan a month.",
+   "cta": "Do you track what each step costs?",
+   "hashtags": [
+    "#Shorts",
+    "#ContentCreation",
+    "#CreatorTips"
+   ],
+   "facts_used": [
+    "F3",
+    "F4"
+   ],
+   "beats": [
+    "What 17 credits bought me.",
+    "One draft plus one rewrite.",
+    "300 down to 283.",
+    "One clip cost 13 credits.",
+    "Know the price of each step.",
+    "Then plan the month.",
+    "Do you track what each step costs?"
+   ],
+   "slides": []
+  },
+  {
+   "id": "V10",
+   "platform": "Instagram",
+   "format": "Short video",
+   "pillar": "Idea-to-published workflow",
+   "hook": "One idea. Three shapes.",
+   "caption": "Turn one idea into a post, a carousel and a short video. Write a different first line for each so none of them feels copied.",
+   "cta": "What idea could you reshape this week?",
+   "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+   ],
+   "facts_used": [],
+   "beats": [
+    "One idea. Three shapes.",
+    "A LinkedIn post.",
+    "A carousel.",
+    "A short vertical video.",
+    "A different first line for each.",
+    "What idea could you reshape this week?"
+   ],
+   "slides": []
+  },
+  {
+   "id": "C01",
+   "platform": "LinkedIn",
+   "format": "Carousel",
+   "pillar": "The reformatting problem and how to fix it",
+   "hook": "Stop pasting one graphic on every platform",
+   "caption": "The same graphic on three platforms reads as copied on all three. Here is a simple way to adapt one idea without starting from zero.",
+   "cta": "Which platform gets your idea first?",
+   "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+   ],
+   "facts_used": [],
+   "beats": [],
+   "slides": [
+    "Stop pasting one graphic on every platform",
+    "Each feed has its own shape and its own habits.",
+    "LinkedIn: context and a clear point of view.",
+    "Reels and Shorts: vertical, fast first line, captions.",
+    "Keep the idea. Change the first line and the frame.",
+    "Check it before it goes out: format, hook, caption, link.",
+    "Which platform gets your idea first?"
+   ]
+  },
+  {
+   "id": "C02",
+   "platform": "LinkedIn",
+   "format": "Carousel",
+   "pillar": "Hooks and captions",
+   "hook": "Five hook patterns that work for creators",
+   "caption": "Hooks are easier when you pick a pattern. These five are plain and need no tricks.",
+   "cta": "Which pattern will you try first?",
+   "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+   ],
+   "facts_used": [],
+   "beats": [],
+   "slides": [
+    "Five hook patterns for creators",
+    "The answer first: Black bars waste your clip.",
+    "The test: I tried X so you do not have to.",
+    "The mistake: Here is what I got wrong.",
+    "The question: What do you check before you post?",
+    "The before and after: 175 words, then under 150.",
+    "Which pattern will you try first?"
+   ]
+  },
+  {
+   "id": "C03",
+   "platform": "LinkedIn",
+   "format": "Carousel",
+   "pillar": "Idea-to-published workflow",
+   "hook": "My idea-to-published workflow",
+   "caption": "A repeatable routine matters more than a perfect post. This is the one I use for each idea.",
+   "cta": "What would you change in this routine?",
+   "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+   ],
+   "facts_used": [],
+   "beats": [],
+   "slides": [
+    "My idea-to-published workflow",
+    "Step one: write the idea in one sentence.",
+    "Step two: get a first draft.",
+    "Step three: edit by instruction: length, claims, ending.",
+    "Step four: shape it for each platform.",
+    "Step five: add a tracking link and schedule it.",
+    "What would you change in this routine?"
+   ]
+  },
+  {
+   "id": "C04",
+   "platform": "LinkedIn",
+   "format": "Carousel",
+   "pillar": "Honest tests",
+   "hook": "Honest notes from my first session in IncuBrix",
+   "caption": "I tested the LinkedIn Content template and Clips. Here is what worked, what did not, and what it cost.",
+   "cta": "What would you want to know before trying it?",
+   "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+   ],
+   "facts_used": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7"
+   ],
+   "beats": [],
+   "slides": [
+    "Honest notes from my first session",
+    "Worked: a draft from one typed idea.",
+    "Worked: a rewrite by chat followed all three instructions.",
+    "Cost: draft plus rewrite was 17 credits, 300 to 283.",
+    "Worked: Clips found one 32-second vertical clip. 13 credits.",
+    "Not ready: roughly 70% black bars, no captions seen, quiet audio.",
+    "Limit: Clips needs a source of at least 2 minutes. My 1:33 upload was rejected.",
+    "What would you want to know before trying it?"
+   ]
+  },
+  {
+   "id": "C05",
+   "platform": "Instagram",
+   "format": "Carousel",
+   "pillar": "Hooks and captions",
+   "hook": "A caption checklist before you post",
+   "caption": "Run this list before every post. It takes a minute and catches most of the problems I see.",
+   "cta": "What would you add to this checklist?",
+   "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+   ],
+   "facts_used": [],
+   "beats": [],
+   "slides": [
+    "A caption checklist before you post",
+    "First line: does it give the answer?",
+    "Claims: does every number have a source?",
+    "Call to action: one clear ask.",
+    "Hashtags: a few relevant ones.",
+    "Link: tracked, and placed where the platform allows it.",
+    "What would you add to this checklist?"
+   ]
+  },
+  {
+   "id": "G01",
+   "platform": "Instagram",
+   "format": "Graphic",
+   "pillar": "The reformatting problem and how to fix it",
+   "hook": "Resized is not reformatted",
+   "caption": "A letterboxed clip is the same video in a smaller box. Reframing it for vertical is a separate step.",
+   "cta": "Do you reframe or resize?",
+   "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+   ],
+   "facts_used": [],
+   "beats": [],
+   "slides": [
+    "Resized is not reformatted."
+   ]
+  },
+  {
+   "id": "G02",
+   "platform": "Instagram",
+   "format": "Graphic",
+   "pillar": "Hooks and captions",
+   "hook": "Answer first. Warm-up never.",
+   "caption": "The first line is the post. Lead with the answer and keep the warm-up out of it.",
+   "cta": "What is your first line this week?",
+   "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+   ],
+   "facts_used": [],
+   "beats": [],
+   "slides": [
+    "Answer first. Warm-up never."
+   ]
+  },
+  {
+   "id": "G03",
+   "platform": "Instagram",
+   "format": "Graphic",
+   "pillar": "Honest tests",
+   "hook": "Check before you post: bars, captions, audio",
+   "caption": "I check three things on every vertical clip: black bars, captions and audio level. One failed check means it is not ready.",
+   "cta": "What is on your pre-post checklist?",
+   "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+   ],
+   "facts_used": [
+    "F5"
+   ],
+   "beats": [],
+   "slides": [
+    "Before you post a clip: check bars, captions, audio."
+   ]
+  },
+  {
+   "id": "G04",
+   "platform": "Instagram",
+   "format": "Graphic",
+   "pillar": "Idea-to-published workflow",
+   "hook": "Idea, draft, edit, format, schedule",
+   "caption": "Five steps, always in the same order. A routine you can repeat beats a clever one you cannot.",
+   "cta": "Which step do you skip most?",
+   "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+   ],
+   "facts_used": [],
+   "beats": [],
+   "slides": [
+    "Idea. Draft. Edit. Format. Schedule."
+   ]
+  },
+  {
+   "id": "G05",
+   "platform": "Instagram",
+   "format": "Graphic",
+   "pillar": "The product in action",
+   "hook": "Edit by instruction, not by hand",
+   "caption": "In my test, one chat message asked for under 150 words, no unsourced claims, and a question at the end. The rewrite followed all three.",
+   "cta": "What would you ask a rewrite to fix?",
+   "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+   ],
+   "facts_used": [
+    "F2"
+   ],
+   "beats": [],
+   "slides": [
+    "Under 150 words. No unsourced claims. End with a question."
+   ]
+  },
+  {
+   "id": "T01",
+   "platform": "LinkedIn",
+   "format": "Text post",
+   "pillar": "The reformatting problem and how to fix it",
+   "hook": "Posting one video everywhere is not the same as posting well.",
+   "caption": "Posting one video everywhere is not the same as posting well.\n\nEach platform has its own shape. LinkedIn rewards context. Reels and Shorts reward a fast first line and a vertical frame.\n\nI keep the idea and change three things: the first line, the frame and the ending.\n\nIt is slower than copy and paste. It also does not look copied.",
+   "cta": "Which of the three do you change first?",
+   "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+   ],
+   "facts_used": [],
+   "beats": [],
+   "slides": []
+  },
+  {
+   "id": "T02",
+   "platform": "LinkedIn",
+   "format": "Text post",
+   "pillar": "Honest tests",
+   "hook": "My first draft from an AI template ran long and cited numbers I could not source.",
+   "caption": "My first draft from an AI template ran long and cited numbers I could not source.\n\nI asked the LinkedIn Content template for a post under 150 words. The draft ran about 175, with figures that had no source, no hashtags and no call to action.\n\nOne rewrite by chat fixed the length, removed the claims and added a question.",
+   "cta": "Do you check every number in a draft before you post?",
+   "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+   ],
+   "facts_used": [
+    "F1",
+    "F2",
+    "F7"
+   ],
+   "beats": [],
+   "slides": []
+  },
+  {
+   "id": "T03",
+   "platform": "LinkedIn",
+   "format": "Text post",
+   "pillar": "Hooks and captions",
+   "hook": "The first line decides whether anyone reads the second.",
+   "caption": "The first line decides whether anyone reads the second.\n\nI write the answer first and cut anything that sounds like a warm-up.\n\nWeak: Today I want to share some thoughts on formatting.\nBetter: Black bars waste a vertical clip.\n\nThe second version tells you what you will learn before you decide to keep reading.",
+   "cta": "What is the first line of your next post?",
+   "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+   ],
+   "facts_used": [],
+   "beats": [],
+   "slides": []
+  },
+  {
+   "id": "T04",
+   "platform": "LinkedIn",
+   "format": "Text post",
+   "pillar": "Idea-to-published workflow",
+   "hook": "I keep one routine for every idea: draft, edit, format, schedule.",
+   "caption": "I keep one routine for every idea: draft, edit, format, schedule.\n\nPosting stays steady when the routine is boring.\n\nFirst I write the idea in one sentence. Then I get a draft, edit it by instruction, shape it for each platform and add a tracked link.\n\nThe edit step is where most of the quality comes from.",
+   "cta": "Which step in your routine takes the longest?",
+   "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+   ],
+   "facts_used": [],
+   "beats": [],
+   "slides": []
+  },
+  {
+   "id": "T05",
+   "platform": "LinkedIn",
+   "format": "Text post",
+   "pillar": "Honest tests",
+   "hook": "A clip finder found my moment but I would not post the file.",
+   "caption": "A clip finder found my moment but I would not post the file.\n\nI ran a 2:25 landscape video through Clips. It found one 32-second clip at 1080x1920.\n\nRoughly 70% of the frame was black bars, I saw no captions in the frames I sampled, and the audio was quiet.\n\nThe finding step is useful. The finishing step is still on me.",
+   "cta": "What do you fix after a clip tool does its part?",
+   "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+   ],
+   "facts_used": [
+    "F4",
+    "F5"
+   ],
+   "beats": [],
+   "slides": []
+  },
+  {
+   "id": "T06",
+   "platform": "LinkedIn",
+   "format": "Text post",
+   "pillar": "Hooks and captions",
+   "hook": "Captions are the cheapest fix for a vertical video.",
+   "caption": "Captions are the cheapest fix for a vertical video.\n\nSome people watch muted, so a video without captions loses them in the first seconds.\n\nBurn the captions into the frame, keep each line short, and read the whole video once with the sound off before you post.",
+   "cta": "Do you read your videos on mute before posting?",
+   "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+   ],
+   "facts_used": [],
+   "beats": [],
+   "slides": []
+  },
+  {
+   "id": "T07",
+   "platform": "LinkedIn",
+   "format": "Text post",
+   "pillar": "The product in action",
+   "hook": "Editing a draft by chat is the part of IncuBrix I would use again.",
+   "caption": "Editing a draft by chat is the part of IncuBrix I would use again.\n\nI typed one idea, chose a single LinkedIn post, and got a full draft. Then I asked for three changes in one message: under 150 words, remove two unsourced claims, end with a question.\n\nIt followed all three.",
+   "cta": "What would you ask a rewrite to change?",
+   "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+   ],
+   "facts_used": [
+    "F1",
+    "F2"
+   ],
+   "beats": [],
+   "slides": []
+  },
+  {
+   "id": "T08",
+   "platform": "LinkedIn",
+   "format": "Text post",
+   "pillar": "The reformatting problem and how to fix it",
+   "hook": "Resizing a video is not the same as reframing it.",
+   "caption": "Resizing a video is not the same as reframing it.\n\nA landscape video squeezed into a vertical frame leaves bars above and below. The viewer sees a small picture inside a big screen.\n\nReframing follows the speaker and fills the frame. It is one more step, and it is the step that makes a clip look made for the platform.",
+   "cta": "Do you reframe, or resize and hope?",
+   "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+   ],
+   "facts_used": [],
+   "beats": [],
+   "slides": []
+  },
+  {
+   "id": "T09",
+   "platform": "LinkedIn",
+   "format": "Text post",
+   "pillar": "Honest tests",
+   "hook": "Know what each step costs before you plan a month of posts.",
+   "caption": "Know what each step costs before you plan a month of posts.\n\nIn my test, one draft plus one rewrite cost 17 credits, from 300 to 283. One clip cost 13 credits.\n\nThe balance stayed visible at the top, which made it easy to see.\n\nMultiply that by your weekly plan before you commit.",
+   "cta": "Do you track the cost of each content step?",
+   "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+   ],
+   "facts_used": [
+    "F3",
+    "F4"
+   ],
+   "beats": [],
+   "slides": []
+  },
+  {
+   "id": "T10",
+   "platform": "LinkedIn",
+   "format": "Text post",
+   "pillar": "Idea-to-published workflow",
+   "hook": "Turn one idea into three formats instead of three ideas.",
+   "caption": "Turn one idea into three formats instead of three ideas.\n\nI take one idea and write a LinkedIn post, a short carousel and a vertical video from it.\n\nThe first line changes each time. The point stays the same. That way each feed gets something made for it, and I only have to think once.",
+   "cta": "What is one idea you could reuse this week?",
+   "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+   ],
+   "facts_used": [],
+   "beats": [],
+   "slides": []
+  }
+ ]
+}

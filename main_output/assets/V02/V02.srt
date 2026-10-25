@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:04,800
+I asked a template for a LinkedIn post.
+
+2
+00:00:04,800 --> 00:00:08,700
+I asked for under 150 words.
+
+3
+00:00:08,700 --> 00:00:12,200
+The draft ran about 175.
+
+4
+00:00:12,200 --> 00:00:16,500
+It also had numbers with no source.
+
+5
+00:00:16,500 --> 00:00:20,800
+I asked for a rewrite by chat.
+
+6
+00:00:20,800 --> 00:00:24,300
+It followed all three instructions.
+
+7
+00:00:24,300 --> 00:00:28,600
+Do you check drafts before you post?

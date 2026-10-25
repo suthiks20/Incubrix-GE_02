@@ -1,0 +1,50 @@
+{
+  "asset_id": "V02",
+  "platform": "Instagram",
+  "format": "Short video",
+  "pillar": "Honest tests",
+  "hook": "I asked for under 150 words. I got 175.",
+  "caption": "I tested the LinkedIn Content template. The draft ran long and carried claims with no source. A rewrite by chat fixed it.",
+  "cta": "Do you check drafts before you post?",
+  "hashtags": [
+    "#ContentCreation",
+    "#CreatorTips",
+    "#Reels",
+    "#Repurposing"
+  ],
+  "slides": [],
+  "beats": [
+    "I asked a template for a LinkedIn post.",
+    "I asked for under 150 words.",
+    "The draft ran about 175.",
+    "It also had numbers with no source.",
+    "I asked for a rewrite by chat.",
+    "It followed all three instructions.",
+    "Do you check drafts before you post?"
+  ],
+  "facts_used": [
+    "F1",
+    "F2",
+    "F7"
+  ],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-10-27 17:00 UTC",
+  "input_hash": "d19a4b6d0a62584b",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=instagram&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=V02",
+  "final_caption": "I asked for under 150 words. I got 175.\n\nI tested the LinkedIn Content template. The draft ran long and carried claims with no source. A rewrite by chat fixed it.\n\nDo you check drafts before you post?\n\nLink in bio.\n\n#ContentCreation #CreatorTips #Reels #Repurposing",
+  "beat_seconds": [
+    4.8,
+    3.9,
+    3.5,
+    4.3,
+    4.3,
+    3.5,
+    4.3
+  ],
+  "files": [
+    "assets\\V02\\V02.mp4"
+  ]
+}

@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:03,100
+Resizing is not repurposing.
+
+2
+00:00:03,100 --> 00:00:07,000
+A letterboxed video is just resized.
+
+3
+00:00:07,000 --> 00:00:10,500
+Black bars waste the screen.
+
+4
+00:00:10,500 --> 00:00:14,400
+Reframing keeps the speaker in view.
+
+5
+00:00:14,400 --> 00:00:17,100
+Then add captions.
+
+6
+00:00:17,100 --> 00:00:21,000
+Do you reframe or just resize?

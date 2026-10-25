@@ -1,0 +1,43 @@
+{
+  "asset_id": "V07",
+  "platform": "YouTube Shorts",
+  "format": "Short video",
+  "pillar": "The reformatting problem and how to fix it",
+  "hook": "Resizing is not repurposing",
+  "caption": "A letterboxed video is resized, not reframed. Reframing keeps the speaker in the frame and fills the screen.",
+  "cta": "Do you reframe or just resize?",
+  "hashtags": [
+    "#Shorts",
+    "#ContentCreation",
+    "#CreatorTips"
+  ],
+  "slides": [],
+  "beats": [
+    "Resizing is not repurposing.",
+    "A letterboxed video is just resized.",
+    "Black bars waste the screen.",
+    "Reframing keeps the speaker in view.",
+    "Then add captions.",
+    "Do you reframe or just resize?"
+  ],
+  "facts_used": [],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-11-08 16:00 UTC",
+  "input_hash": "33f266e34482bff2",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=youtube&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=V07",
+  "final_caption": "Resizing is not repurposing\n\nA letterboxed video is resized, not reframed. Reframing keeps the speaker in the frame and fills the screen.\n\nDo you reframe or just resize?\n\nLink: https://incubrix.com/?utm_source=youtube&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=V07\n\n#Shorts #ContentCreation #CreatorTips",
+  "beat_seconds": [
+    3.1,
+    3.9,
+    3.5,
+    3.9,
+    2.7,
+    3.9
+  ],
+  "files": [
+    "assets\\V07\\V07.mp4"
+  ]
+}

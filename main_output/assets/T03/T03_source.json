@@ -1,0 +1,28 @@
+{
+  "asset_id": "T03",
+  "platform": "LinkedIn",
+  "format": "Text post",
+  "pillar": "Hooks and captions",
+  "hook": "The first line decides whether anyone reads the second.",
+  "caption": "The first line decides whether anyone reads the second.\n\nI write the answer first and cut anything that sounds like a warm-up.\n\nWeak: Today I want to share some thoughts on formatting.\nBetter: Black bars waste a vertical clip.\n\nThe second version tells you what you will learn before you decide to keep reading.",
+  "cta": "What is the first line of your next post?",
+  "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+  ],
+  "slides": [],
+  "beats": [],
+  "facts_used": [],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-11-05 13:00 UTC",
+  "input_hash": "e4ddfa4c3b68cbdc",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=linkedin&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=T03",
+  "final_caption": "The first line decides whether anyone reads the second.\n\nI write the answer first and cut anything that sounds like a warm-up.\n\nWeak: Today I want to share some thoughts on formatting.\nBetter: Black bars waste a vertical clip.\n\nThe second version tells you what you will learn before you decide to keep reading.\n\nWhat is the first line of your next post?\n\n#ContentCreation #ShortFormVideo #CreatorTools",
+  "files": [
+    "assets\\T03\\T03.txt"
+  ]
+}

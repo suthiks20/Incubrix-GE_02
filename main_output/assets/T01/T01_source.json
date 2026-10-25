@@ -1,0 +1,28 @@
+{
+  "asset_id": "T01",
+  "platform": "LinkedIn",
+  "format": "Text post",
+  "pillar": "The reformatting problem and how to fix it",
+  "hook": "Posting one video everywhere is not the same as posting well.",
+  "caption": "Posting one video everywhere is not the same as posting well.\n\nEach platform has its own shape. LinkedIn rewards context. Reels and Shorts reward a fast first line and a vertical frame.\n\nI keep the idea and change three things: the first line, the frame and the ending.\n\nIt is slower than copy and paste. It also does not look copied.",
+  "cta": "Which of the three do you change first?",
+  "hashtags": [
+    "#ContentCreation",
+    "#ShortFormVideo",
+    "#CreatorTools"
+  ],
+  "slides": [],
+  "beats": [],
+  "facts_used": [],
+  "rights": "generated",
+  "source_input": "authored library (product_notes.txt, input_1.txt)",
+  "tools_used": "Claude (drafting), ffmpeg, Pillow",
+  "scheduled": "2026-11-02 13:00 UTC",
+  "input_hash": "7858b2a9143570e7",
+  "input_id": "library",
+  "utm_link": "https://incubrix.com/?utm_source=linkedin&utm_medium=social&utm_campaign=growth_engine_2026q4&utm_content=T01",
+  "final_caption": "Posting one video everywhere is not the same as posting well.\n\nEach platform has its own shape. LinkedIn rewards context. Reels and Shorts reward a fast first line and a vertical frame.\n\nI keep the idea and change three things: the first line, the frame and the ending.\n\nIt is slower than copy and paste. It also does not look copied.\n\nWhich of the three do you change first?\n\n#ContentCreation #ShortFormVideo #CreatorTools",
+  "files": [
+    "assets\\T01\\T01.txt"
+  ]
+}
