@@ -1,0 +1,184 @@
+..........slot test-1 attempt 1: HTTP 401 Google error: invalid credentials
+Gemini switched off for the rest of this run
+slot test-1: using offline fallback generator
+slot test-1 attempt 1: HTTP 403 Google error: invalid credentials
+Gemini switched off for the rest of this run
+slot test-1: using offline fallback generator
+.slot test-1 attempt 1: HTTP 404 Google error: This model is no longer available to new users
+Gemini switched off for the rest of this run
+slot test-1: using offline fallback generator
+.slot test-1 attempt 1: HTTP 503 Google error: temporary
+waiting 1s before trying again
+..slot test-1 attempt 1: HTTP 429 Google error: Quota exceeded per day
+Gemini switched off for the rest of this run
+slot test-1: using offline fallback generator
+.....slot test-1 attempt 1: no API key in environment
+Gemini switched off for the rest of this run
+slot test-1: using offline fallback generator
+.slot test-1 attempt 1: HTTP 429 Google error: Quota exceeded per minute
+waiting 1s before trying again
+.slot test-1 attempt 1: HTTP 429 Too Many Requests: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https:/ [quota: GenerateRequestsPerDayPerProjectPerModel-FreeTier] [retry in 37972s]
+Gemini switched off for the rest of this run
+slot test-1: using offline fallback generator
+.slot test-1 attempt 1: HTTP 429 Too Many Requests: Too many requests per minute
+waiting 1s before trying again
+slot test-1 attempt 2: HTTP 429 Too Many Requests: Too many requests per minute
+waiting 2s before trying again
+slot test-1 attempt 3: HTTP 429 Too Many Requests: Too many requests per minute
+slot test-1: using offline fallback generator
+slot test-1 attempt 1: HTTP 429 Too Many Requests: Too many requests per minute
+waiting 1s before trying again
+slot test-1 attempt 2: HTTP 429 Too Many Requests: Too many requests per minute
+waiting 2s before trying again
+slot test-1 attempt 3: HTTP 429 Too Many Requests: Too many requests per minute
+Gemini switched off for the rest of this run
+slot test-1: using offline fallback generator
+.slot test-1 attempt 1: HTTP 429 Too Many Requests: rate limited [retry in 25s]
+waiting 25.0s before trying again
+.slot test-1 attempt 1: request failed: timed out
+waiting 1s before trying again
+slot test-1 attempt 2: request failed: timed out
+waiting 2s before trying again
+slot test-1 attempt 3: request failed: timed out
+slot test-1: using offline fallback generator
+.INFO run start input=input_1 chars=1304 slots=10
+WARNING slot short_video-1: using offline fallback generator
+WARNING slot carousel-1: using offline fallback generator
+WARNING slot graphic-1: using offline fallback generator
+WARNING slot text_post-1: using offline fallback generator
+WARNING slot text_post-2: using offline fallback generator
+WARNING slot text_post-3: using offline fallback generator
+WARNING slot text_post-4: using offline fallback generator
+WARNING slot text_post-5: using offline fallback generator
+WARNING slot text_post-6: using offline fallback generator
+WARNING slot text_post-7: using offline fallback generator
+INFO run done {"input": "input_1", "input_chars": 1304, "slots": 10, "produced": 10, "new": 10, "updated": 0, "unchanged": 0, "rejected": 0, "duplicates_removed": 0, "assets_produced": 10, "assets_rejected": 0, "run_id": 1, "input_name": "input_1.txt", "render_failed": 0, "recovered": 0, "runtime_seconds": 5.16, "runtime_min": 0.09, "tokens_in": 0, "tokens_out": 0, "estimated_cost_usd": 0.0, "direct_cost_usd": 0.0, "source_counts": {"gemini": 0, "offline": 10, "other": 0}, "errors": [], "error_lines": []}
+INFO run start input=copy chars=1304 slots=10
+WARNING slot short_video-1: using offline fallback generator
+INFO REJECT short_video-1: duplicate of A01 (similarity 1.00)
+C:\Users\suthikshan k\Desktop\incubrix-option2-submission\engine\incubrix_engine\pipeline.py:118: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\SUTHIK~1\\AppData\\Local\\Temp\\tmpttymh_5s\\rejected.jsonl' mode='a' encoding='utf-8'>
+  (self.out / "rejected.jsonl").open("a", encoding="utf-8").write(json.dumps({"slot": slot["slot_id"], "reason": reason, "asset": a}, ensure_ascii=False) + "\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+WARNING slot carousel-1: using offline fallback generator
+INFO REJECT carousel-1: duplicate of A02 (similarity 1.00)
+WARNING slot graphic-1: using offline fallback generator
+INFO REJECT graphic-1: duplicate of A03 (similarity 1.00)
+WARNING slot text_post-1: using offline fallback generator
+INFO REJECT text_post-1: duplicate of A04 (similarity 1.00)
+WARNING slot text_post-2: using offline fallback generator
+INFO REJECT text_post-2: duplicate of A05 (similarity 1.00)
+WARNING slot text_post-3: using offline fallback generator
+INFO REJECT text_post-3: duplicate of A06 (similarity 1.00)
+WARNING slot text_post-4: using offline fallback generator
+INFO REJECT text_post-4: duplicate of A07 (similarity 1.00)
+WARNING slot text_post-5: using offline fallback generator
+INFO REJECT text_post-5: duplicate of A08 (similarity 1.00)
+WARNING slot text_post-6: using offline fallback generator
+INFO REJECT text_post-6: duplicate of A09 (similarity 1.00)
+WARNING slot text_post-7: using offline fallback generator
+INFO REJECT text_post-7: duplicate of A10 (similarity 1.00)
+INFO run done {"input": "copy", "input_chars": 1304, "slots": 10, "produced": 0, "new": 0, "updated": 0, "unchanged": 0, "rejected": 10, "duplicates_removed": 10, "assets_produced": 0, "assets_rejected": 10, "run_id": 2, "input_name": "copy.txt", "render_failed": 0, "recovered": 0, "runtime_seconds": 0.04, "runtime_min": 0.0, "tokens_in": 0, "tokens_out": 0, "estimated_cost_usd": 0.0, "direct_cost_usd": 0.0, "source_counts": {"gemini": 0, "offline": 0, "other": 0}, "errors": [], "error_lines": []}
+..INFO run start input=input_1 chars=1304 slots=10
+WARNING slot short_video-1 attempt 1: simulated failure
+WARNING slot short_video-1: using offline fallback generator
+WARNING slot carousel-1 attempt 1: simulated failure
+WARNING slot carousel-1: using offline fallback generator
+WARNING slot graphic-1 attempt 1: simulated failure
+WARNING slot graphic-1: using offline fallback generator
+WARNING slot text_post-1 attempt 1: simulated failure
+WARNING slot text_post-1: using offline fallback generator
+WARNING slot text_post-2 attempt 1: simulated failure
+WARNING slot text_post-2: using offline fallback generator
+WARNING slot text_post-3 attempt 1: simulated failure
+WARNING slot text_post-3: using offline fallback generator
+WARNING slot text_post-4 attempt 1: simulated failure
+WARNING slot text_post-4: using offline fallback generator
+WARNING slot text_post-5 attempt 1: simulated failure
+WARNING slot text_post-5: using offline fallback generator
+WARNING slot text_post-6 attempt 1: simulated failure
+WARNING slot text_post-6: using offline fallback generator
+WARNING slot text_post-7 attempt 1: simulated failure
+WARNING slot text_post-7: using offline fallback generator
+INFO run done {"input": "input_1", "input_chars": 1304, "slots": 10, "produced": 10, "new": 10, "updated": 0, "unchanged": 0, "rejected": 0, "duplicates_removed": 0, "assets_produced": 10, "assets_rejected": 0, "run_id": 1, "input_name": "input_1.txt", "render_failed": 0, "recovered": 0, "runtime_seconds": 5.29, "runtime_min": 0.09, "tokens_in": 0, "tokens_out": 0, "estimated_cost_usd": 0.0, "direct_cost_usd": 0.0, "source_counts": {"gemini": 0, "offline": 10, "other": 0}, "errors": ["slot short_video-1 attempt 1: simulated failure", "slot carousel-1 attempt 1: simulated failure", "slot graphic-1 attempt 1: simulated failure", "slot text_post-1 attempt 1: simulated failure", "slot text_post-2 attempt 1: simulated failure", "slot text_post-3 attempt 1: simulated failure", "slot text_post-4 attempt 1: simulated failure", "slot text_post-5 attempt 1: simulated failure", "slot text_post-6 attempt 1: simulated failure", "slot text_post-7 attempt 1: simulated failure"], "error_lines": ["slot short_video-1 attempt 1: simulated failure", "slot carousel-1 attempt 1: simulated failure", "slot graphic-1 attempt 1: simulated failure", "slot text_post-1 attempt 1: simulated failure", "slot text_post-2 attempt 1: simulated failure", "slot text_post-3 attempt 1: simulated failure", "slot text_post-4 attempt 1: simulated failure", "slot text_post-5 attempt 1: simulated failure", "slot text_post-6 attempt 1: simulated failure", "slot text_post-7 attempt 1: simulated failure"]}
+.INFO run start input=input_1 chars=1304 slots=10
+WARNING slot short_video-1: using offline fallback generator
+WARNING slot carousel-1: using offline fallback generator
+WARNING slot graphic-1: using offline fallback generator
+WARNING slot text_post-1: using offline fallback generator
+WARNING slot text_post-2: using offline fallback generator
+WARNING slot text_post-3: using offline fallback generator
+WARNING slot text_post-4: using offline fallback generator
+WARNING slot text_post-5: using offline fallback generator
+WARNING slot text_post-6: using offline fallback generator
+WARNING slot text_post-7: using offline fallback generator
+INFO run done {"input": "input_1", "input_chars": 1304, "slots": 10, "produced": 10, "new": 10, "updated": 0, "unchanged": 0, "rejected": 0, "duplicates_removed": 0, "assets_produced": 10, "assets_rejected": 0, "run_id": 1, "input_name": "input_1.txt", "render_failed": 0, "recovered": 0, "runtime_seconds": 5.14, "runtime_min": 0.09, "tokens_in": 0, "tokens_out": 0, "estimated_cost_usd": 0.0, "direct_cost_usd": 0.0, "source_counts": {"gemini": 0, "offline": 10, "other": 0}, "errors": [], "error_lines": []}
+.INFO run start input=in chars=1304 slots=10
+WARNING slot short_video-1: using offline fallback generator
+WARNING slot carousel-1: using offline fallback generator
+WARNING slot graphic-1: using offline fallback generator
+WARNING slot text_post-1: using offline fallback generator
+WARNING slot text_post-2: using offline fallback generator
+WARNING slot text_post-3: using offline fallback generator
+WARNING slot text_post-4: using offline fallback generator
+WARNING slot text_post-5: using offline fallback generator
+WARNING slot text_post-6: using offline fallback generator
+WARNING slot text_post-7: using offline fallback generator
+INFO run done {"input": "in", "input_chars": 1304, "slots": 10, "produced": 10, "new": 10, "updated": 0, "unchanged": 0, "rejected": 0, "duplicates_removed": 0, "assets_produced": 10, "assets_rejected": 0, "run_id": 1, "input_name": "in.txt", "render_failed": 0, "recovered": 0, "runtime_seconds": 5.02, "runtime_min": 0.08, "tokens_in": 0, "tokens_out": 0, "estimated_cost_usd": 0.0, "direct_cost_usd": 0.0, "source_counts": {"gemini": 0, "offline": 10, "other": 0}, "errors": [], "error_lines": []}
+INFO run start input=in chars=1319 slots=10
+WARNING slot short_video-1: using offline fallback generator
+WARNING slot carousel-1: using offline fallback generator
+WARNING slot graphic-1: using offline fallback generator
+WARNING slot text_post-1: using offline fallback generator
+WARNING slot text_post-2: using offline fallback generator
+WARNING slot text_post-3: using offline fallback generator
+WARNING slot text_post-4: using offline fallback generator
+WARNING slot text_post-5: using offline fallback generator
+WARNING slot text_post-6: using offline fallback generator
+WARNING slot text_post-7: using offline fallback generator
+INFO run done {"input": "in", "input_chars": 1319, "slots": 10, "produced": 10, "new": 0, "updated": 1, "unchanged": 9, "rejected": 0, "duplicates_removed": 0, "assets_produced": 10, "assets_rejected": 0, "run_id": 2, "input_name": "in.txt", "render_failed": 0, "recovered": 0, "runtime_seconds": 4.83, "runtime_min": 0.08, "tokens_in": 0, "tokens_out": 0, "estimated_cost_usd": 0.0, "direct_cost_usd": 0.0, "source_counts": {"gemini": 0, "offline": 10, "other": 0}, "errors": [], "error_lines": []}
+.INFO run start input=input_1 chars=1304 slots=10
+WARNING slot short_video-1: using offline fallback generator
+ERROR render failed for A01: simulated render failure
+WARNING slot carousel-1: using offline fallback generator
+WARNING slot graphic-1: using offline fallback generator
+WARNING slot text_post-1: using offline fallback generator
+WARNING slot text_post-2: using offline fallback generator
+WARNING slot text_post-3: using offline fallback generator
+WARNING slot text_post-4: using offline fallback generator
+WARNING slot text_post-5: using offline fallback generator
+WARNING slot text_post-6: using offline fallback generator
+WARNING slot text_post-7: using offline fallback generator
+INFO run done {"input": "input_1", "input_chars": 1304, "slots": 10, "produced": 9, "new": 10, "updated": 0, "unchanged": 0, "rejected": 0, "duplicates_removed": 0, "assets_produced": 9, "assets_rejected": 0, "run_id": 1, "input_name": "input_1.txt", "render_failed": 1, "recovered": 0, "runtime_seconds": 0.43, "runtime_min": 0.01, "tokens_in": 0, "tokens_out": 0, "estimated_cost_usd": 0.0, "direct_cost_usd": 0.0, "source_counts": {"gemini": 0, "offline": 9, "other": 0}, "errors": ["render failed for A01: simulated render failure"], "error_lines": ["render failed for A01: simulated render failure"]}
+INFO run start input=input_1 chars=1304 slots=10
+INFO run done {"input": "input_1", "input_chars": 1304, "slots": 10, "produced": 10, "new": 0, "updated": 0, "unchanged": 9, "rejected": 0, "duplicates_removed": 0, "assets_produced": 10, "assets_rejected": 0, "run_id": 2, "input_name": "input_1.txt", "render_failed": 0, "recovered": 1, "runtime_seconds": 4.57, "runtime_min": 0.08, "tokens_in": 0, "tokens_out": 0, "estimated_cost_usd": 0.0, "direct_cost_usd": 0.0, "source_counts": {"gemini": 0, "offline": 10, "other": 0}, "errors": [], "error_lines": []}
+.INFO run start input=input_1 chars=1304 slots=10
+WARNING slot short_video-1: using offline fallback generator
+WARNING slot carousel-1: using offline fallback generator
+WARNING slot graphic-1: using offline fallback generator
+WARNING slot text_post-1: using offline fallback generator
+WARNING slot text_post-2: using offline fallback generator
+WARNING slot text_post-3: using offline fallback generator
+WARNING slot text_post-4: using offline fallback generator
+WARNING slot text_post-5: using offline fallback generator
+WARNING slot text_post-6: using offline fallback generator
+WARNING slot text_post-7: using offline fallback generator
+INFO run done {"input": "input_1", "input_chars": 1304, "slots": 10, "produced": 10, "new": 10, "updated": 0, "unchanged": 0, "rejected": 0, "duplicates_removed": 0, "assets_produced": 10, "assets_rejected": 0, "run_id": 1, "input_name": "input_1.txt", "render_failed": 0, "recovered": 0, "runtime_seconds": 5.55, "runtime_min": 0.09, "tokens_in": 0, "tokens_out": 0, "estimated_cost_usd": 0.0, "direct_cost_usd": 0.0, "source_counts": {"gemini": 0, "offline": 10, "other": 0}, "errors": [], "error_lines": []}
+INFO run start input=input_1 chars=1304 slots=10
+INFO run done {"input": "input_1", "input_chars": 1304, "slots": 10, "produced": 10, "new": 0, "updated": 0, "unchanged": 10, "rejected": 0, "duplicates_removed": 0, "assets_produced": 10, "assets_rejected": 0, "run_id": 2, "input_name": "input_1.txt", "render_failed": 0, "recovered": 0, "runtime_seconds": 0.0, "runtime_min": 0.0, "tokens_in": 0, "tokens_out": 0, "estimated_cost_usd": 0.0, "direct_cost_usd": 0.0, "source_counts": {"gemini": 0, "offline": 10, "other": 0}, "errors": [], "error_lines": []}
+.INFO run start input=input_1 chars=1304 slots=10
+WARNING slot short_video-1: using offline fallback generator
+WARNING slot carousel-1: using offline fallback generator
+WARNING slot graphic-1: using offline fallback generator
+WARNING slot text_post-1: using offline fallback generator
+WARNING slot text_post-2: using offline fallback generator
+WARNING slot text_post-3: using offline fallback generator
+WARNING slot text_post-4: using offline fallback generator
+WARNING slot text_post-5: using offline fallback generator
+WARNING slot text_post-6: using offline fallback generator
+WARNING slot text_post-7: using offline fallback generator
+INFO run done {"input": "input_1", "input_chars": 1304, "slots": 10, "produced": 10, "new": 10, "updated": 0, "unchanged": 0, "rejected": 0, "duplicates_removed": 0, "assets_produced": 10, "assets_rejected": 0, "run_id": 1, "input_name": "input_1.txt", "render_failed": 0, "recovered": 0, "runtime_seconds": 6.36, "runtime_min": 0.11, "tokens_in": 0, "tokens_out": 0, "estimated_cost_usd": 0.0, "direct_cost_usd": 0.0, "source_counts": {"gemini": 0, "offline": 10, "other": 0}, "errors": [], "error_lines": []}
+.
+----------------------------------------------------------------------
+Ran 33 tests in 92.867s
+
+OK
