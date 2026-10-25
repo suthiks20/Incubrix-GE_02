@@ -17,6 +17,8 @@ Install FFmpeg for Windows from [ffmpeg.org](https://ffmpeg.org/download.html), 
 set PATH=C:\ffmpeg\bin;%PATH%
 ```
 
+Run `ffmpeg -version`; it should print a version.
+
 Gemini is optional. Set a key in Command Prompt before running if you want to try the live API:
 
 ```bat
@@ -59,7 +61,7 @@ python -m unittest discover -s tests
 - Offline output is extractive and less varied than LLM output.
 - Product facts allowed by the engine are limited to F1-F8 in `brand.json`.
 - Scheduled slot times are a starting hypothesis, not a measured best time.
-- Gemini outcome: [FILL IN after real run: either 'worked, tokens_in=X tokens_out=Y' or 'free quota exhausted on <date>, offline fallback used']
+- Gemini outcome: worked once on 25 Oct 2026 (8 assets, tokens_in=9610, tokens_out=3624); free daily quota exhausted afterwards, offline fallback used.
 
 Evidence: [Gemini live run](../evidence/run_logs/gemini_live_run_25Oct.txt) · [429 quota response](../evidence/run_logs/gemini_429_quota_25Oct.txt)
 

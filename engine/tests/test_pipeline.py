@@ -22,6 +22,7 @@ class Pipeline(unittest.TestCase):
     def setUp(self): self.tmp = tempfile.mkdtemp()
     def tearDown(self): shutil.rmtree(self.tmp, ignore_errors=True)
 
+    @unittest.skipUnless(shutil.which("ffmpeg"), "ffmpeg not on PATH")
     def test_normal_run_makes_10_plus_with_utm_and_files(self):
         s = make(self.tmp).run(INPUT, "tiny"); self.assertGreaterEqual(s["produced"], 10)
         r = rows(self.tmp); self.assertGreaterEqual(len(r), 10)
@@ -37,11 +38,13 @@ class Pipeline(unittest.TestCase):
         self.assertTrue(all(tag in scheduled["text"] for tag in source["hashtags"]))
         self.assertTrue((Path(self.tmp) / "scheduler.csv").exists())
 
+    @unittest.skipUnless(shutil.which("ffmpeg"), "ffmpeg not on PATH")
     def test_repeat_run_adds_nothing(self):
         make(self.tmp).run(INPUT, "tiny"); n = len(rows(self.tmp))
         s = make(self.tmp).run(INPUT, "tiny")
         self.assertEqual(s["new"], 0); self.assertEqual(s["unchanged"], n); self.assertEqual(len(rows(self.tmp)), n)
 
+    @unittest.skipUnless(shutil.which("ffmpeg"), "ffmpeg not on PATH")
     def test_refresh_updates_in_place_without_duplicates(self):
         src = Path(self.tmp) / "in.txt"; src.write_text(INPUT.read_text(encoding="utf-8"), encoding="utf-8")
         make(self.tmp).run(src, "tiny"); before = rows(self.tmp); ids = {r["asset_id"] for r in before}
@@ -52,6 +55,7 @@ class Pipeline(unittest.TestCase):
         self.assertEqual(len({r["asset_id"] for r in after}), len(after))
         self.assertNotEqual([r["caption"] for r in before], [r["caption"] for r in after])
 
+    @unittest.skipUnless(shutil.which("ffmpeg"), "ffmpeg not on PATH")
     def test_run_summary_has_required_metrics_and_source_counts(self):
         s = make(self.tmp).run(INPUT, "tiny")
         self.assertEqual(s["input_name"], INPUT.name)
@@ -65,22 +69,26 @@ class Pipeline(unittest.TestCase):
         self.assertIn("estimated_cost_usd", s)
         self.assertIn("error_lines", s)
 
+    @unittest.skipUnless(shutil.which("ffmpeg"), "ffmpeg not on PATH")
     def test_dedupe_blocks_copy_from_other_input(self):
         make(self.tmp).run(INPUT, "tiny"); n = len(rows(self.tmp)); copy = Path(self.tmp) / "copy.txt"
         copy.write_text(INPUT.read_text(encoding="utf-8"), encoding="utf-8")
         s = make(self.tmp).run(copy, "tiny"); self.assertGreater(s["duplicates_removed"], 0)
         self.assertEqual(len(rows(self.tmp)), n)
 
+    @unittest.skipUnless(shutil.which("ffmpeg"), "ffmpeg not on PATH")
     def test_llm_failure_logged_and_recovered(self):
         c = GeminiClient(make(self.tmp).cfg, simulate_failure=True)
         s = make(self.tmp, client=c).run(INPUT, "tiny")
         self.assertGreaterEqual(s["produced"], 10); self.assertTrue(s["errors"])
         self.assertIn("simulated failure", (Path(self.tmp) / "logs" / "engine.log").read_text())
 
+    @unittest.skipUnless(shutil.which("ffmpeg"), "ffmpeg not on PATH")
     def test_render_failure_then_recovery(self):
         s1 = make(self.tmp, simulate="render").run(INPUT, "tiny"); self.assertEqual(s1["render_failed"], 1)
         s2 = make(self.tmp).run(INPUT, "tiny"); self.assertEqual(s2["recovered"], 1); self.assertEqual(len(rows(self.tmp)), s2["produced"])
 
+    @unittest.skipUnless(shutil.which("ffmpeg"), "ffmpeg not on PATH")
     def test_library_all_pass_and_counts(self):
         s = make(self.tmp).ingest(ROOT / "content" / "library_30.json"); self.assertEqual(s["produced"], 30); self.assertEqual(s["rejected"], 0)
         r = rows(self.tmp); self.assertGreaterEqual(sum(x["format"] == "Short video" for x in r), 10)
