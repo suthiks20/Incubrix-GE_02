@@ -2,6 +2,8 @@ import csv, json, shutil, tempfile, unittest
 from pathlib import Path
 from incubrix_engine.pipeline import Engine
 from incubrix_engine.llm import GeminiClient
+from incubrix_engine.export import repo_relative_path
+from check_workbook import COLS as WORKBOOK_COLUMNS, compare_rows
 ROOT = Path(__file__).resolve().parent.parent
 INPUT = ROOT / "content" / "input_1.txt"
 TINY = {"short_video": 1, "carousel": 1, "graphic": 1, "text_post": 7}   # 10 assets, one video keeps tests fast
@@ -26,6 +28,7 @@ class Pipeline(unittest.TestCase):
         self.assertEqual(list(r[0]), CALENDAR_COLUMNS)
         self.assertTrue(all("utm_source=" in x["utm_link"] and x["final_file_url"] and x["scheduled_date"] for x in r))
         self.assertTrue(all(x["source_file_url"] for x in r))
+        self.assertTrue(all("\\" not in x["final_file_url"] and "\\" not in x["source_file_url"] for x in r))
         source = json.loads((Path(self.tmp) / r[0]["source_file_url"]).read_text(encoding="utf-8"))
         self.assertTrue(source["hashtags"])
         with (Path(self.tmp) / "scheduler.csv").open(encoding="utf-8") as f:
@@ -82,5 +85,28 @@ class Pipeline(unittest.TestCase):
         s = make(self.tmp).ingest(ROOT / "content" / "library_30.json"); self.assertEqual(s["produced"], 30); self.assertEqual(s["rejected"], 0)
         r = rows(self.tmp); self.assertGreaterEqual(sum(x["format"] == "Short video" for x in r), 10)
         self.assertGreaterEqual(sum(x["format"] in ("Carousel", "Graphic") for x in r), 5)
+        self.assertTrue(all(x["tools_used"] == "Claude (copy), Python, Pillow, ffmpeg" for x in r))
+        videos = [x for x in r if x["format"] == "Short video"]
+        self.assertTrue(all(x["notes"].endswith("; silent video, add licensed audio in-app if wanted") for x in videos))
+        source = json.loads((Path(self.tmp) / r[0]["source_file_url"]).read_text(encoding="utf-8"))
+        self.assertTrue(source["hashtags"])
+
+    def test_workbook_comparison_reports_each_cell_mismatch(self):
+        workbook_rows = [["same"] * len(WORKBOOK_COLUMNS)]
+        csv_rows = [{column: "same" for column in WORKBOOK_COLUMNS}]
+        self.assertEqual(compare_rows(workbook_rows, csv_rows), [])
+        csv_rows[0][WORKBOOK_COLUMNS[1]] = "different"
+        self.assertEqual(compare_rows(workbook_rows, csv_rows), [
+            "row 5, column platform: workbook='same', calendar='different'"
+        ])
+        self.assertEqual(compare_rows(workbook_rows, []), [
+            "row count mismatch: workbook=1, calendar=0"
+        ])
+
+    def test_export_paths_are_repo_relative_and_forward_slash_separated(self):
+        self.assertEqual(
+            repo_relative_path(ROOT.parent / "main_output", "assets/C01/C01.pdf"),
+            "main_output/assets/C01/C01.pdf",
+        )
 
 if __name__ == "__main__": unittest.main()
